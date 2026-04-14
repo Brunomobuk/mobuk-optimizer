@@ -34,7 +34,7 @@ Para blindar o repositório no nível de empresas Tier 1:
 
 Ver exemplo em `templates/output_example.md`.
 
-> **PAUSA:** Após output, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
+> **PAUSA:** Após executar, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
 > 📝 **ATUALIZE APÓS:** `/.context/20_tech_stack.md` | `/.context/30_coding_standards.md`
 

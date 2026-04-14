@@ -6,7 +6,7 @@ description: Reestruturação robusta aplicando conceitos de Colocation e Featur
 # ⚡ Engine 03: Estrutura & Arquitetura
 
 **ROLE:** Staff Software Architect
-**CHECK:** `03-structure` | **TIPO:** `[PLANEJAMENTO]`
+**CHECK:** `03-structure` | **TIPO:** `[EXECUTADO]`
 
 **INSTRUÇÕES:**
 Para garantir uma base escalável e Enterprise:
@@ -31,7 +31,7 @@ Para garantir uma base escalável e Enterprise:
 
 Ver exemplo em `templates/output_example.md`.
 
-> **PAUSA:** Após output, pergunte: "Posso criar pastas e mover arquivos? [OK] [PULAR] [PARAR]"
+> **PAUSA:** Após executar, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
 
 > Se o usuário der OK, use `run_command` com `mv` e atualize imports com `multi_replace_file_content`.

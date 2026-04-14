@@ -6,7 +6,7 @@ description: SRP, DRY e quebra de componentes gigantes.
 # ⚡ Engine 07: Refatoração
 
 **ROLE:** Lead Developer
-**CHECK:** `07-refactor` | **TIPO:** `[PLANEJAMENTO]`
+**CHECK:** `07-refactor` | **TIPO:** `[EXECUTADO]`
 
 **INSTRUÇÕES:**
 
@@ -27,7 +27,8 @@ description: SRP, DRY e quebra de componentes gigantes.
 
 Ver exemplo em `templates/output_example.md`.
 
-> **PAUSA:** Após output, pergunte: "Posso refatorar? [OK] [PULAR] [PARAR]"
+> **PAUSA:** Após executar, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
+> 📝 **ATUALIZE APÓS:** `/.context/10_architecture.md` | `/.context/90_active_memory.md`
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.

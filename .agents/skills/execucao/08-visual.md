@@ -6,7 +6,7 @@ description: Cria/Enriquece Design System. Centraliza estilos, corrige contraste
 # ⚡ Engine 08: Design System & Visual
 
 **ROLE:** Design Ops & UI Architect
-**CHECK:** `08-visual` | **TIPO:** `[PLANEJAMENTO]`
+**CHECK:** `08-visual` | **TIPO:** `[EXECUTADO]`
 
 > Se `[N/A]` (projeto sem frontend visual) → skip automático.
 
@@ -43,7 +43,7 @@ Para garantir que o app tenha um nível **Premium / Enterprise** e esteja pronto
 
 Ver exemplo em `templates/output_example.md`.
 
-> **PAUSA:** Após output, pergunte: "Posso aplicar Design System? [OK] [PULAR] [PARAR]"
+> **PAUSA:** Após executar, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
 > 📝 **ATUALIZE APÓS:** `/.context/50_ui_ux_guide.md`
 

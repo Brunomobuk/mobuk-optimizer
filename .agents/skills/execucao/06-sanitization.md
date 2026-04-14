@@ -33,6 +33,6 @@ Para garantir um código cristalino ("Padrão Produção Tier 1"):
 
 Ver exemplo em `templates/output_example.md`.
 
-> **PAUSA:** Após output, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
+> **PAUSA:** Após executar, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
 > 📝 **ATUALIZE APÓS:** `/.context/90_active_memory.md` (inclua relatório de dívida técnica)

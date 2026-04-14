@@ -36,6 +36,6 @@ Aplique as proteções obrigatórias para um sistema nível Enterprise:
 
 Ver exemplo em `templates/output_example.md`.
 
-> **PAUSA:** Após output, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
+> **PAUSA:** Após executar, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
 > 📝 **ATUALIZE APÓS:** `/.context/90_active_memory.md`

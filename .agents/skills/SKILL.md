@@ -30,8 +30,24 @@ Mapa unificado de todas as áreas. Cada área tem **dois arquivos** (quando apli
 | 14 | Sincronização | SYNC | ✅ | ✅ | `14-sync.md` | `14-sync.md` |
 | 15 | Friction Killer | CICLO | ✅ | ✅ | `15-friction-killer.md` | `15-friction-killer.md` |
 | 16 | Self-Healing Docs | CICLO | ✅ | ✅ | `16-self-healing.md` | `16-self-healing.md` |
-| 17 | Token Budgeting | CICLO | ❌ | ✅ | — | `17-token-budgeting.md` |
-| 18 | Gamificação | CICLO | ❌ | ✅ | — | `18-gamificacao.md` |
+| 17 | Token Budgeting | CICLO | ✅ | ✅ | `17-token-budgeting.md` | `17-token-budgeting.md` |
+| 18 | Gamificação | CICLO | ✅ | ✅ | `18-gamificacao.md` | `18-gamificacao.md` |
+
+## Fluxo Padrão (Todas as Áreas 01-18)
+
+**Auditoria → OK → Execução → OK → Próxima área**
+
+| Passo | Ação |
+|-------|------|
+| 1 | Carregar skill de Auditoria (ex: `auditoria/02-detox.md`) |
+| 2 | Executar diagnóstico e exibir **Nota** + **Pontos de Atenção** |
+| 3 | Pausar e perguntar: "Posso corrigir? [OK] [PULAR] [REFAZER] [PARAR]" |
+| 4 | Se **OK**: Carregar skill de Execução (ex: `execucao/02-detox.md`) |
+| 5 | Executar correções e mostrar **Nota Nova** |
+| 6 | Pausar e perguntar: "Posso continuar? [OK] [PULAR] [PARAR]" |
+| 7 | Se **OK**: Ir para próxima área |
+
+> **Exceção:** Área 00 (Diagnóstico) é apenas leitura, não precisa de execução.
 
 ## Regras de Ouro
 

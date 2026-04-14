@@ -6,7 +6,7 @@ description: Refatoração estrutural de estado, isolamento de fetch e resoluç�
 # ⚡ Engine 05: Data Flow & State
 
 **ROLE:** Staff Data Architect
-**CHECK:** `05-data` | **TIPO:** `[PLANEJAMENTO]`
+**CHECK:** `05-data` | **TIPO:** `[EXECUTADO]`
 
 **INSTRUÇÕES:**
 Para garantir um fluxo de dados à prova de erros, performático e resiliente (Padrão Enterprise):
@@ -29,10 +29,9 @@ Para garantir um fluxo de dados à prova de erros, performático e resiliente (P
 
 Ver exemplo em `templates/output_example.md`.
 
-> **PAUSA:** Após output, pergunte: "Posso refatorar? [OK] [PULAR] [PARAR]"
+> **PAUSA:** Após executar, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
-
-> Se aprovado, use `run_command` para criar pastas e instalar libs.
+> 📝 **ATUALIZE APÓS:** `/.context/60_data_model.md`
 
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.

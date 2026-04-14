@@ -32,7 +32,7 @@ Para garantir um repositório "Pristine" (padrão World-Class):
 
 Ver exemplo em `templates/output_example.md`.
 
-> **PAUSA:** Após output, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
+> **PAUSA:** Após executar, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
 > 📝 **ATUALIZE APÓS:** `/.context/20_tech_stack.md` | `/.context/90_active_memory.md`
 

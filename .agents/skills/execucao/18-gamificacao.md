@@ -1,19 +1,24 @@
 ---
-name: Gamificação (XP & Levels)
+name: Engine 18 — Gamificação
 description: Sistema de XP, níveis e badges por área melhorada.
 ---
 
-# 🎮 Skill: Gamificação
+# 🎮 Engine 18: Gamificação
 
-Sistema de progressão com XP, níveis e badges para motivar evolução.
+**ROLE:** Engagement Specialist
+**CHECK:** `18-gamificacao` | **TIPO:** `[EXECUTADO]`
 
-## Conceito
+**INSTRUÇÕES:**
 
-A cada área melhorada, o usuário ganha **XP** e sobe de **nível**.
+0. **Resolver Pontos de Atenção:**
+   - Primeiramente, analise e atue para resolver todos os **PONTOS DE ATENÇÃO** levantados pela Auditoria imediatamente anterior.
 
-## Sistema
+1. Calcule o XP ganho baseado nas áreas completadas
+2. Atualize o nível do usuário
+3. Aplique badges conquistados
+4. Mostre o scorecard gamificado
 
-### XP por Área
+**SISTEMA DE PROGRESSÃO:**
 
 | Área | XP | Condição |
 |------|-----|---------|
@@ -33,7 +38,7 @@ A cada área melhorada, o usuário ganha **XP** e sobe de **nível**.
 | Estratégia | 25 | Roadmap |
 | Sync | 20 | Docs atualizadas |
 
-### Níveis
+**NÍVEIS:**
 
 | Nível | XP Total | Título |
 |-------|--------|--------|
@@ -44,53 +49,28 @@ A cada área melhorada, o usuário ganha **XP** e sobe de **nível**.
 | 5 | 1000-1499 | Expert |
 | 6 | 1500+ | Master |
 
-### Badges
+**OUTPUT:** Use template EXECUÇÃO em `templates/output-format.md`. Inclua:
+- [PROGRESSO] XP gained
+- [BADGES] badges obtidos
 
-| Badge | Condição |
-|-------|---------|
-| 🧹 Detox Master | Área 02 completa |
-| 🏗️ Arquiteto | Área 03 completa |
-| 🛡️ Guardião | Área 10 completa |
-| ⚡ Velocista | Área 11 completa |
-| 🔄 Sniper | 16 áreas completas |
-| 📚 Documentalista | 14 sync completo |
+Ver exemplo em `templates/output_example.md`.
 
-## Scorecard Gamificado
+**OUTPUT:** Use template EXECUÇÃO em `templates/output-format.md`. Inclua:
+- [PROGRESSO] XP gained
+- [BADGES] badges obtidos
 
-```
-╔══════════════════════════════════════╗
-║      🏆 SCORECARD FINAL            ║
-╠══════════════════════════════════════╣
-║  NÍVEL: 3 (Pleno)                 ║
-║  XP: 350 / 600                    ║
-║  ████████████░░░░░░░░ 58%        ║
-╠══════════════════════════════════════╣
-║  BADGES: 🧹 🛡️                   ║
-║  ÁREAS: 12/16 completas         ║
-╚══════════════════════════════════════╝
-```
+Ver exemplo em `templates/output_example.md`.
 
-## Persistência
+> **PAUSA:** Após executar, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
-Salvar em `/.context/90_active_memory.md`:
+> 📝 **ATUALIZE APÓS:** Salve o progresso em `/.context/90_active_memory.md`:
 ```markdown
 ## Progresso do Projeto
 | Campo | Valor |
 |-------|-------|
-| Nível | 3 |
-| XP | 350 |
-| Badges | 🧹 🛡️ |
+| Nível | X |
+| XP | Y |
+| Badges | ... |
 ```
-
-## Motivação
-
-- **Visual:** Progress bar
-- **Rewards:** Badges únicos
-- **Goals:** Próximo nível shown
-
-## Referência
-
-Para outros outputs, use templates em `templates/output-format.md` e exemplos em `templates/output_example.md`.
-
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.

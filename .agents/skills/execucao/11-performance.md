@@ -6,13 +6,10 @@ description: Transformação de desempenho - Lazy loading, troca de libs pesadas
 # ⚡ Engine 11: PerfOps & Web Vitals
 
 **ROLE:** Staff Performance Engineer
-**CHECK:** `11-performance` | **TIPO:** `[PLANEJAMENTO]`
+**CHECK:** `11-performance` | **TIPO:** `[EXECUTADO]`
 
 **INSTRUÇÕES:**
-
-0. **Dry-run (Pré-execução):** Liste as otimizações planejadas em uma tabela simples e pause para aprovação antes de qualquer execução. Sem alterações no código até receber OK.
 Para polir o projeto até o status "Instantâneo" (Padrão Enterprise):
-
 
 0. **Resolver Pontos de Atenção:**
    - Primeiramente, analise e atue para resolver todos os **PONTOS DE ATENÇÃO** levantados pela Auditoria imediatamente anterior.
@@ -34,7 +31,7 @@ Para polir o projeto até o status "Instantâneo" (Padrão Enterprise):
 
 Ver exemplo em `templates/output_example.md`.
 
-> **PAUSA:** Após output, pergunte: "Posso otimizar? [OK] [PULAR] [PARAR]"
+> **PAUSA:** Após executar, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
 > 📝 **ATUALIZE APÓS:** `/.context/90_active_memory.md`
 

@@ -26,7 +26,7 @@ description: Identificar stack e classificar o projeto.
 
 Ver exemplo em `templates/output-example.md`.
 
-> **PAUSA:** Após output, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
+> **PAUSA:** Após executar, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
