@@ -38,15 +38,15 @@ O Mobuk Optimizer vai:
 | Manual | `/engine` | Aprova cada passo |
 | Autopilot | `/engine --auto` | Execução contínua |
 | Auditoria | `/audit` | Apenas diagnóstico |
-| Quick | `/audit-quick` | 5 checks rápidos |
+| Quick | `/audit-quick` | 6 checks rápidos |
 
 ## Comandos Disponíveis
 
 | Comando | Função |
 |---------|--------|
-| `/engine` | Ciclo completo (16 áreas) |
-| `/audit` | Auditoria completa |
-| `/audit-quick` | 5 checks essenciais |
+| `/engine` | Ciclo completo (19 áreas) |
+| `/audit` | Auditoria completa (19 áreas) |
+| `/audit-quick` | 6 checks essenciais |
 | `/detox` | Limpeza e sanitização |
 | `/polish` | UI e UX |
 | `/preflight` | Pré-deploy checklist |

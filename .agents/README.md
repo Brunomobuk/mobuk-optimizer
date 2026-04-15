@@ -5,12 +5,12 @@
 ## Estrutura do Toolkit
 
 - **`/agent/MOBUK-OPTIMIZER.md`**: O coordenador do projeto. Define como a IA deve interagir com você.
-- **`/skills/auditoria/`**: 16 checks read-only (00–15) para diagnóstico.
-- **`/skills/execucao/`**: 16 blocos de ação para correção.
+- **`/skills/auditoria/`**: 19 checks read-only (00–18) para diagnóstico.
+- **`/skills/execucao/`**: 19 blocos de ação para correção.
 - **`/workflows/`**: Comandos rápidos (slash commands).
 - **`/rules/`**: Regras always-on.
 
-## Áreas (16 total)
+## Áreas (19 total)
 
 | # | Área | Tipo |
 |---|------|------|
@@ -46,7 +46,7 @@ O sistema opera por padrão no **Modo Manual**, garantindo que nada seja alterad
 | Comando | O que faz |
 |---------|-----------|
 | `/engine` | **Inicia o Mobuk Optimizer** — ciclo completo com aprovação passo a passo |
-| `/audit` | Apenas Auditoria (16 checks completos) |
+| `/audit` | Apenas Auditoria (19 checks completos) |
 | `/audit-quick` | Auditoria rápida (5 checks) |
 | `/context-init` | Inicializa a memória `.context/` do projeto |
 | `/detox` | Limpeza + sanitização |
