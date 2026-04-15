@@ -36,8 +36,7 @@ Applies to **all interactions**, regardless of workflow, skill, or stack.
 
 ## Approval Flow
 
-- **`[EXECUTADO]`** → Requires `OK` confirmation after presenting plan (if preceded by audit).
-- **`[PLANEJAMENTO]`** → **PAUSE** and await approval before executing.
+- **`[EXECUTADO]`** → Requires `OK` confirmation after audit.
 - **`[N/A]`** → Auto-skip (does not apply to current stack).
 
 ## Output Format

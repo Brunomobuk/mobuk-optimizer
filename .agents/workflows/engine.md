@@ -4,7 +4,14 @@ description: Pipeline completo do Engine Universal orientado pelo Mobuk Optimize
 
 # /engine — Mobuk Optimizer Pipeline
 
-Transformation engine guided by **Mobuk Optimizer**. Five types of areas, each with a specific flow and `/.context/` integration.
+Transformation engine guided by **Mobuk Optimizer**. Cada área segue um fluxo padronizado: **Auditoria → OK → Execução → OK**.
+
+> **Fluxo Padrão (todas as áreas 01-18):**
+> 1. Carregar skill de Auditoria → Executar → Mostrar Nota + Pontos de Atenção
+> 2. Pausar e perguntar: "Posso corrigir? [OK] [PULAR] [REFAZER] [PARAR]"
+> 3. Se OK → Carregar skill de Execução → Executar → Mostrar Nota Nova
+> 4. Pausar e perguntar: "Posso continuar? [OK] [PULAR] [PARAR]"
+> 5. Atualizar `.context/`
 
 ## Step 1 — Initialize Agent
 
@@ -14,19 +21,16 @@ Read `.agents/agent/MOBUK-OPTIMIZER.md` to load behavior, type map, and instruct
 
 ## Step 2 — Execution Loop
 
-For each area (00 to 14), follow its **TIPO** flow:
+For each area (00 to 18), follow its **TIPO** flow:
 
-| Type | Condensed Flow |
-|------|----------------|
-| `[SCAN]` | 00: Read `.context` → Execute audit skill → Nota & Pontos de Atenção → PAUSE (Await OK) → Update `.context` |
-| `[INIT]` | 01: Check if `.context/` exists → Execute execucao skill → Report creations → PAUSE (Await OK) → Update `.context` |
-| `[CICLO]` | 02–12: Read `.context` → Audit → Show Nota & Pontos de Atenção → PAUSE & ASK: (OK/PULAR/REPETIR) → IF **OK**: Execute fixing points of attention + skill instructions → Verify → Update `.context` |
-| `[PLAN]` | 13: Read `.context` → Execute execucao skill → Show plan → PAUSE (Await OK) → Update `.context` |
-| `[SYNC]` | 14: Read all `.context` → Compare vs code → Update directly → Report diffs |
+| Type | Flow |
+|------|------|
+| `[SCAN]` | 00: Read `.context` → Execute audit → Show score → PAUSE → Update |
+| `[INIT]` | 01: Check `.context/` → Execute → Report → PAUSE → Update |
+| `[CICLO]` | 02–18: Audit → Score → If <8.5: Execute → Verify → Update |
 
-> Observação de melhoria: Sempre que o ciclo CICLO detectar mudanças relevantes no código durante a execução, dispare automaticamente o bloco 16-self-healing (Self-Healing Docs) para manter a documentação em sincronia com o código. O usuário poderá interromper ou ajustar esse comportamento caso deseje.
-> 
-> Observação adicional: a integração do Self-Healing não substitui a necessidade de aprovação para mudanças críticas; ele atua como assistente de atualização de docs, mantendo o histórico e o estado no `.context`.
+> **Nota:** Área 00 (Diagnóstico) é leitura apenas — não requer execução.
+> **Nota:** Áreas comNota ≥ 8.5 podem ser puladas com [PULAR].
 
 ## Step 3 — Final Scorecard
 
@@ -50,6 +54,9 @@ For each area (00 to 14), follow its **TIPO** flow:
 ║ 13 ║ Estratégia       ║ PLAN ║   —    ║   —    ║   —   ║
 ║ 14 ║ Sincronização    ║ SYNC ║   —    ║   —    ║   —   ║
 ║ 15 ║ Friction Killer  ║ CICLO║        ║        ║       ║
+║ 16 ║ Self-Healing     ║ CICLO║        ║        ║       ║
+║ 17 ║ Token Budgeting ║ CICLO║        ║        ║       ║
+║ 18 ║ Gamificação      ║ CICLO║        ║        ║       ║
 ╠════╬══════════════════╬══════╬════════╬════════╬═══════╣
 ║    ║ MÉDIA (CICLOS)   ║      ║        ║        ║  +X.X ║
 ╚════╩══════════════════╩══════╩════════╩════════╩═══════╝
