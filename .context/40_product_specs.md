@@ -8,8 +8,8 @@ Universal Engine é um framework de agentes IA que transforma qualquer projeto d
 
 | # | Feature | Status |
 |---|---------|--------|
-| 1 | 15 checks de auditoria read-only (skill) | ✅ |
-| 2 | 15 blocos de ação/execução (skill) | ✅ |
+| 1 | 19 checks de auditoria read-only (skill) | ✅ |
+| 2 | 19 blocos de ação/execução (skill) | ✅ |
 | 3 | Ciclo self-driving: audit → execute → verify (threshold 8.5) | ✅ |
 | 4 | Detecção inteligente de stack no Check 00 | ✅ |
 | 5 | Suporte a N/A (skip automático de checks não aplicáveis) | ✅ |

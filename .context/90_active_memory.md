@@ -1,34 +1,41 @@
 # 🧠 Memória Ativa
 
-## Sprint Atual
+## Sessão Atual
 
 | Campo | Valor |
 |-------|-------|
-| **Início** | 2026-02-21 |
-| **Foco** | Criação do Universal Engine v1.0.0 |
-| **Status** | ✅ Completo |
+| **Última Atualização** | 2026-04-14 |
+| **Foco** | Estabilização do Engine v1.0.1 |
+| **Status** | ✅ Em andamento |
 
-## Decisões Recentes
+## Última Sessão — Correções Realizadas
 
-| Data | Decisão | Motivo |
-|------|---------|--------|
-| 2026-02-21 | Skills separadas (não unificadas) | Token economy — cada workflow carrega só o necessário |
-| 2026-02-21 | Ciclo self-driving com threshold 8.5 | Automação máxima — usuário não precisa decidir próxima etapa |
+| Data | Ação | Área |
+|------|------|------|
+| 2026-04-14 | Padronização fluxo Audit→OK→Exec→OK | Todas |
+| 2026-04-14 | Remoção [PLANEJAMENTO] → [EXECUTADO] | 03,05,07,08,11 |
+| 2026-04-14 | Adição auditoria 17-18 | 17,18 |
+| 2026-04-14 | Correção paths templates | Todas skills |
+| 2026-04-14 | Arquivos IDE (CLAUDE.md, AGENTS.md, etc) | Raiz |
+| 2026-04-14 | Remoção duplicados 13-roadmap → 13-strategy | 13 |
+| 2026-04-14 | Atualização contagens 15→19 | .context files |
 
-## Scoreboard (Evolução)
+## Scoreboard
 
-Registra a evolução das áreas após cada ciclo de Audit -> Execução.
+| Área | Última Nota | Status |
+|------|------------|--------|
+| - | -(Não executado em projeto real) | Pendente |
 
-| Área | Check | Nota Antiga | Nova Nota | Status Atual |
-|------|-------|-------------|-----------|--------------|
-| 00 | Diagnóstico | - | - | - |
-| 02 | Detox | - | - | - |
-| 03 | Estrutura | - | - | - |
-| 04 | Ambiente | - | - | - |
-| ... | *(Atualizado dinamicamente pelas skills de execução)* | - | - | - |
+## Estado do Engine
 
-## Notas para a Próxima Sessão
+- ✅ 19 áreas (00-18)
+- ✅ 19 auditorias + 19 execuções
+- ✅ Fluxo padronizado
+- ✅ Arquivos IDE prontos
+- ⚠️ Nunca testado em projeto real
 
-- Testar `/engine` em um projeto real para validar fluxo completo
-- Considerar workflow `/fix N` para executar bloco específico
-- Avaliar se `audit-quick` precisa de mais ou menos checks
+## Para Próxima Sessão
+
+- Testar `/engine` em um projeto real
+- Validar que IDEs reconhecem CLAUDE.md/AGENTS.md
+- Confirmar que 90_active_memory é atualizado corretamente

@@ -12,7 +12,7 @@
 
 ## Objetivo Principal
 
-Fornecer uma pasta `.agents/` plug-and-play que pode ser copiada para qualquer projeto. Ao digitar `/engine`, o sistema audita (15 checks), corrige (15 blocos), re-audita e repete até nota ≥ 8.5 em todas as áreas — de forma autônoma.
+Fornecer uma pasta `.agents/` plug-and-play que pode ser copiada para qualquer projeto. Ao digitar `/engine`, o sistema audita (19 checks), corrige (19 blocos), re-audita e repete até nota ≥ 8.5 em todas as áreas — de forma autônoma.
 
 ## Público-Alvo
 

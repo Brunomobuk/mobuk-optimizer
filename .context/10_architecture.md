@@ -15,12 +15,12 @@ Framework de Agentes — organização modular por camada funcional.
 │   └── design-system.md               # Anti-hardcode visual
 ├── skills/                             # Capacidades reutilizáveis
 │   ├── audit/
-│   │   └── SKILL.md                    # 15 checks diagnósticos read-only
-│   ├── engine/
-│   │   └── SKILL.md                    # 15 blocos de ação self-driving
-│   └── context-memory/
-│       ├── SKILL.md                    # Gestão da pasta .context
-│       └── templates/                  # 10 templates de documentação
+│   │   └── SKILL.md                    # 19 checks diagnósticos read-only
+│   ├── execucao/
+│   │   └── SKILL.md                    # 19 blocos de ação
+│   ├── context-memory/
+│   │   ├── SKILL.md                    # Gestão da pasta .context
+│   │   └── templates/                  # 10 templates de documentação
 │           ├── 00_meta.md
 │           ├── 10_architecture.md
 │           ├── 20_tech_stack.md
@@ -32,8 +32,8 @@ Framework de Agentes — organização modular por camada funcional.
 │           ├── 80_changelog.md
 │           └── 90_active_memory.md
 └── workflows/                          # Slash commands
-    ├── audit.md                        # /audit — 15 checks completos
-    ├── audit-quick.md                  # /audit-quick — 5 checks rápidos
+    ├── audit.md                        # /audit — 19 checks completos
+    ├── audit-quick.md                  # /audit-quick — 6 checks essenciais
     ├── engine.md                       # /engine — pipeline self-driving
     ├── context-init.md                 # /context-init — setup .context
     ├── detox.md                        # /detox — limpeza + sanitização
