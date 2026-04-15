@@ -1,6 +1,0 @@
-{
-  "AUDITORIA": { "output": "templates/output-format.md", "example": "templates/output-example.md" },
-  "EXECUCAO": { "output": "templates/output-format.md", "example": "templates/output-example.md" },
-  "SCORECARD": { "output": "templates/output-format.md", "example": "templates/output-example.md" },
-  "ONBOARDING": { "output": "templates/output-format.md", "example": "templates/output-example.md" }
-}
