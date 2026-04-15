@@ -8,7 +8,7 @@
 | **Owner** | Bruno |
 | **Repo** | `mobuk-optimizer` |
 | **Criado em** | 2026-02-21 |
-| **Última atualização** | 2026-02-21 |
+| **Última atualização** | 2026-04-15 |
 
 ## Objetivo Principal
 

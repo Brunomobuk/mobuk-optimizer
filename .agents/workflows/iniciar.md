@@ -17,7 +17,7 @@ Transformation engine guiado pelo **Mobuk Optimizer**. Cada área segue: **Audit
 
 Read `.agents/agent/MOBUK-OPTIMIZER.md` to load behavior, type map, and instructions from `/.context/`.
 
-> O Mobuk Optimizer se apresenta, identifica o projeto e pergunta pelo modo preferido (Manual ou Autopilot).
+> O Mobuk Optimizer se apresenta, identifica o projeto e inicia o ciclo.
 
 ## Step 2 — Execution Loop
 

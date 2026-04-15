@@ -1,5 +1,18 @@
 # 📝 Changelog
 
+## [1.2.0] - 2026-04-15
+
+### Alterado
+- Simplificação instalação: apenas 2 arquivos (`.agents/` + `AGENTS.md`)
+- Removido: `.cursor/`, `.trae/`, `.opencode/`, `.claude/`, `CLAUDE.md`
+- Removido: referência a "Autopilot Mode" (não implementado)
+- Removido: `/undo`, `/report` (não implementados)
+- Corrigido path em skills: `.agentstemplates` → `.agents/templates`
+- Atualizado `.context/90_active_memory.md`
+
+### Adicionado
+- `setup.ps1` para instalação facilitada
+
 ## [1.1.0] - 2026-04-15
 
 ### Alterado
@@ -19,7 +32,6 @@
 - Correção de contagens: 14 → 18 → 19 áreas
 - Adição de auditorias para áreas 17 e 18 (Token Budgeting + Gamificação)
 - Padronização de mensagens de pausa
-- Criação de arquivos de instruções para todas as IDEs (CLAUDE.md, AGENTS.md, .trae/rules/, .cursor/rules/, .opencode/)
 - Adição de .gitignore
 - Remoção de pasta .qwen/ e arquivos desktop.ini
 
@@ -38,7 +50,3 @@
 - Critérios de nota objetivos e quantificáveis
 - Instruções com ferramentas concretas
 - `.context/` completo para o próprio projeto
-- Arquivos de instruções para Claude Code, OpenCode, Cursor, Trae AI
-
-### Áreas (19 total)
-00-Diagnosis → 01-Context → 02-Detox → 03-Structure → 04-Env → 05-Data → 06-Sanitization → 07-Refactor → 08-Visual → 09-UX → 10-Security → 11-Performance → 12-QA → 13-Strategy → 14-Sync → 15-FrictionKiller → 16-SelfHealing → 17-TokenBudgeting → 18-Gamification

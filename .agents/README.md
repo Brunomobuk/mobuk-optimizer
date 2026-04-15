@@ -31,9 +31,9 @@
 | 14 | Sincronização | SYNC |
 | 15 | Friction Killer | CICLO |
 
-## Como Funciona (O Modo "OK")
+## Como Funciona
 
-O sistema opera por padrão no **Modo Manual**, garantindo que nada seja alterado sem sua supervisão:
+O sistema opera com **aprovação passo a passo**:
 
 1.  **Auditoria:** O Agente avalia uma área e te mostra a nota e o problema.
 2.  **Seu OK:** Você diz "OK" para ele corrigir.

@@ -7,59 +7,60 @@ Framework de Agentes — organização modular por camada funcional.
 ## Árvore de Pastas
 
 ```
-.agents/
-├── README.md                           # Quick start — ponto de entrada
-├── rules/                              # Regras always-on
-│   ├── universal.md                    # Qualidade, idioma, filosofia
-│   ├── zero-any-tolerance.md           # Anti-any em TypeScript
-│   └── design-system.md               # Anti-hardcode visual
-├── skills/                             # Capacidades reutilizáveis
-│   ├── audit/
-│   │   └── SKILL.md                    # 19 checks diagnósticos read-only
-│   ├── execucao/
-│   │   └── SKILL.md                    # 19 blocos de ação
-│   ├── context-memory/
-│   │   ├── SKILL.md                    # Gestão da pasta .context
-│   │   └── templates/                  # 10 templates de documentação
-│           ├── 00_meta.md
-│           ├── 10_architecture.md
-│           ├── 20_tech_stack.md
-│           ├── 30_coding_standards.md
-│           ├── 40_product_specs.md
-│           ├── 50_ui_ux_guide.md
-│           ├── 60_data_model.md
-│           ├── 70_api_reference.md
-│           ├── 80_changelog.md
-│           └── 90_active_memory.md
-└── workflows/                          # Slash commands
-    ├── iniciar.md                      # /iniciar — ciclo completo
-    ├── auditar.md                   # /auditar — diagnóstico
-    └── validar.md                   # /validar — pré-deploy
+mobuk-optimizer/                # PROJETO PRÓPRIO
+├── .context/                   # Contexto real deste projeto
+│   ├── 00_meta.md
+│   ├── 10_architecture.md
+│   ├── 20_tech_stack.md
+│   ├── 30_coding_standards.md
+│   ├── 40_product_specs.md
+│   ├── 50_ui_ux_guide.md
+│   ├── 60_data_model.md
+│   ├── 70_api_reference.md
+│   ├── 80_changelog.md
+│   └── 90_active_memory.md
+├── .agents/                    # FERRAMENTA (copiar para outros projetos)
+│   ├── README.md               # Quick start
+│   ├── agent/
+│   │   └── MOBUK-OPTIMIZER.md # Agente coordenador
+│   ├── rules/                  # Regras always-on
+│   │   ├── universal.md
+│   │   ├── zero-any-tolerance.md
+│   │   ├── design-system.md
+│   │   └── ...
+│   ├── skills/
+│   │   ├── auditoria/         # 19 checks diagnósticos (00-18)
+│   │   ├── execucao/           # 19 blocos de ação (00-18)
+│   │   └── context-memory/    # Gestão .context + templates
+│   ├── templates/             # Formatos de output
+│   └── workflows/             # /iniciar, /auditar, /validar
+├── AGENTS.md                  # CONFIGURAÇÃO ÚNICA (raiz)
+├── setup.ps1                  # Script de instalação
+└── README.md                  # Documentação
 ```
 
 ## Fluxo de Dados
 
-```mermaid
-graph TD
-    U[Usuário digita /iniciar] --> W[workflows/iniciar.md]
-    W --> A[skills/auditoria/SKILL.md]
-    W --> E[skills/execucao/SKILL.md]
-    A -->|check N| SCORE{Nota = 10?}
-    SCORE -->|Sim| SKIP[SKIP → próximo]
-    SCORE -->|Não| E
-    E -->|executa bloco N| A2[Re-audit check N]
-    A2 --> SCORE2{Nota = 10?}
-    SCORE2 -->|Sim| SKIP
-    SCORE2 -->|Não| RETRY[Retry max 2x]
-    RETRY --> E
-    R[rules/] -.->|aplica sempre| W
+```
+Usuário → /iniciar → workflows/iniciar.md
+                     → skills/auditoria/XX-*.md (audit)
+                     → skills/execucao/XX-*.md (execute)
+                     → verify → .context/ (update)
+```
+
+## Instalação em Outro Projeto
+
+```bash
+# Copiar para projeto destino
+cp -r .agents/ /projeto-destino/
+cp AGENTS.md /projeto-destino/
 ```
 
 ## Decisões Arquiteturais
 
 | Decisão | Escolha | Motivo |
 |---------|---------|--------|
-| Skills separadas | audit + engine + context-memory | Token economy — cada workflow carrega só o necessário |
-| Ciclo por bloco | Audit → Execute → Verify | Garante qualidade com nota 10 |
-| Detecção de stack | Check 00 classifica projeto | Permite pular checks/blocos N/A automaticamente |
-| Templates em branco | Marcadores `[EXTRAIR]` | IA preenche após análise real do projeto |
+| AGENTS.md único | Na raiz | Funciona em todos editores |
+| Skills separadas | audit + execucao | Token economy |
+| Ciclo por bloco | Audit → Execute → Verify | Nota 10 = aprovado |
+| Detecção de stack | Check 00 | Pula áreas N/A |
