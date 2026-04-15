@@ -60,16 +60,20 @@ Repete até 100%
 ## Quick Start
 
 ```bash
-# Clone o projeto
+# 1. Clone o projeto
 git clone https://github.com/Brunomobuk/mobuk-optimizer.git
+cd mobuk-optimizer
 
-# Copie .agents/ para seu projeto
-cp -r mobuk-optimizer/.agents /seu/projeto/
+# 2. Instale para seu editor
+.\setup.ps1    # Windows
+./setup.sh      # Linux/Mac
 
-# Entre no projeto
-cd seu-projeto
+# 3. Copie para seu projeto
+cp -r .agents/ /seu/projeto/
+cp AGENTS.md /seu/projeto/
 
-# Inicie o Mobuk Optimizer (no Cursor, Claude Code, OpenCode, etc)
+# 4. Entre no projeto e inicie
+cd /seu/projeto
 /iniciar
 ```
 
