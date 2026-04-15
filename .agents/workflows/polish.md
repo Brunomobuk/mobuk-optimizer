@@ -21,3 +21,5 @@ Executa design system e UX com ciclo Audit → Execute → Verify em 2 áreas.
     - Nota < 8.5 → carregue `skills/execucao/09-ux.md` → pergunte "Posso executar? [OK] [PULAR]" → aplique → re-audite.
 
 3.  **Resultado:** Mostre tabela Antes/Depois das 2 áreas com Delta de notas.
+
+

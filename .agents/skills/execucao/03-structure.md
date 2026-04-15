@@ -25,11 +25,11 @@ Para garantir uma base escalável e Enterprise:
 4. Elimine "Lixeiras": Planeje a quebra da pasta genérica `/utils` em pastas de domínio (ex: `/utils/date.ts`, `/utils/currency.ts` → movidos para `/lib/formatters/`).
 5. Gere a árvore exata de movimentação (`MV arquivo_antigo.ts -> nova_pasta/novo_arquivo.ts`).
 
-**OUTPUT:** Use template EXECUÇÃO em `templates/output-format.md`. Inclua:
+**OUTPUT:** Use template EXECUÇÃO em `.agents/templates/output-format.md`. Inclua:
 - [ANTES] arquitetura atual
 - [DEPOIS] arquitetura proposta
 
-Ver exemplo em `templates/output_example.md`.
+Ver exemplo em `.agents/templates/output_example.md`.
 
 > **PAUSA:** Após executar, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
@@ -38,3 +38,4 @@ Ver exemplo em `templates/output_example.md`.
 
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+

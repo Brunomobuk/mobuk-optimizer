@@ -30,3 +30,5 @@ Cria a pasta `/.context` e preenche com dados reais do projeto.
 5. Reporte: arquivos criados, quais foram preenchidos, quais ficaram como `[TO-DO]`.
 
 6. Sugira: "Execute `/engine` para melhorar o projeto automaticamente."
+
+

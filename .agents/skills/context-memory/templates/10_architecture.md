@@ -38,3 +38,5 @@ graph LR
 | Gerenciador de Estado | `[TO-DO]` | `[TO-DO]` |
 | Roteamento | `[TO-DO]` | `[TO-DO]` |
 | Estilização | `[TO-DO]` | `[TO-DO]` |
+
+

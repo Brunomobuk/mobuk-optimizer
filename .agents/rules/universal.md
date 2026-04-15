@@ -41,4 +41,5 @@ Applies to **all interactions**, regardless of workflow, skill, or stack.
 
 ## Output Format
 
-Use templates centralizados em `skills/templates/output-format.md` + exemplos em `skills/templates/output-example.md`.
+Use templates centralizados em `.agentstemplates/output-format.md` + exemplos em `.agentstemplates/output-example.md`.
+

@@ -35,15 +35,16 @@ description: Docs que se atualizam automaticamente baseado em diffs do código.
 
 **Nunca sobrescreva conteúdo personalizado.** Se `[TO-DO]` ou anotação manual existir, preserve.
 
-**OUTPUT:** Use template EXECUÇÃO em `templates/output-format.md`. Inclua:
+**OUTPUT:** Use template EXECUÇÃO em `.agents/templates/output-format.md`. Inclua:
 - [ARQUIVOS ANALISADOS] X
 - [UPDATES FEITOS] Y
 - [PRESERVADOS] Z
 
-Ver exemplo em `templates/output_example.md`.
+Ver exemplo em `.agents/templates/output_example.md`.
 
 > **PAUSA:** Após executar, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
 > 📝 **ATUALIZE APÓS:** `/.context/80_changelog.md` | `/.context/90_active_memory.md`
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+

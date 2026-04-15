@@ -61,8 +61,8 @@ Mapa unificado de todas as áreas. Cada área tem **dois arquivos** (quando apli
 
 ## Formatos de Output
 
-- **Auditoria:** `.agents/templates/output-format.md` + exemplo `.agents/templates/output-example.md`
-- **Execução:** `.agents/templates/output-format-execucao.md` + exemplo `.agents/templates/output-example.md`
+- **Auditoria:** `.agentstemplates/output-format.md` + exemplo `.agentstemplates/output-example.md`
+- **Execução:** `.agentstemplates/output-format-execucao.md` + exemplo `.agentstemplates/output-example.md`
 
 **⚠️ REGRA:** Sempre use estes templates. Não invente outro formato. Formato compacto: máximo 1 linha por bullet. Zero prosa.
 
@@ -99,3 +99,5 @@ Template completo: `.agents/templates/progress-bar.md`
 | `/context-init` | Inicializar `.context/` | 01 |
 
 > ⚠️ **MANDATO:** Todo raciocínio interno é em English, mas respostas devem ser estritamente em **PT-BR**.
+
+

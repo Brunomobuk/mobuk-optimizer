@@ -80,3 +80,5 @@ Se ultrapassar 80% do limite:
 | 4 | 600–999 | 🚀 Sênior |
 | 5 | 1000–1499 | 💎 Expert |
 | 6 | 1500+ | 👑 Master |
+
+

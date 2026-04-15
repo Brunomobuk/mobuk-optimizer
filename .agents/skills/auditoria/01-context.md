@@ -22,10 +22,10 @@ description: Verifica se existe documentação técnica estruturada em .context/
 - **2-3:** README vazio ou desatualizado
 - **1:** Nenhuma documentação encontrada
 
-**OUTPUT:** Use template AUDITORIA em `templates/output-format.md`. Também inclua:
+**OUTPUT:** Use template AUDITORIA em `.agents/templates/output-format.md`. Também inclua:
 - [CONTAGEM] X arquivos encontrados
 
-Ver exemplo em `templates/output-example.md`.
+Ver exemplo em `.agents/templates/output-example.md`.
 
 > **PAUSA:** Após output, pergunte: "Posso corrigir? [OK] [PULAR] [REFAZER] [PARAR]"
 
@@ -33,3 +33,4 @@ Ver exemplo em `templates/output-example.md`.
 
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+

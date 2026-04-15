@@ -96,3 +96,4 @@ Deseja o Modo Manual (OK a cada etapa) ou Modo Autopilot?
 ---
 
 > ⚠️ **REGRA:** Siga estes formatos EXATAMENTE. Não invente outro estilo.
+

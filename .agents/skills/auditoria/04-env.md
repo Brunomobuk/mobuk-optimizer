@@ -23,10 +23,10 @@ description: Auditoria rigorosa de tooling, pre-commit hooks, strict modes e con
 - **4-6 (Vulnerável):** TS frouxo (sem strict), linter básico sem hooks, formatação mista.
 - **1-3 (Caótico):** Cada dev clona e roda de um jeito. Zero tooling.
 
-**OUTPUT:** Use template AUDITORIA em `templates/output-format.md`. Também inclua:
+**OUTPUT:** Use template AUDITORIA em `.agents/templates/output-format.md`. Também inclua:
 - [GARGALO] maior vulnerabilidade do ambiente
 
-Ver exemplo em `templates/output-example.md`.
+Ver exemplo em `.agents/templates/output-example.md`.
 
 > **PAUSA:** Após output, pergunte: "Posso corrigir? [OK] [PULAR] [REFAZER] [PARAR]"
 
@@ -34,3 +34,4 @@ Ver exemplo em `templates/output-example.md`.
 
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+

@@ -37,3 +37,5 @@ Validação final antes de colocar o projeto em produção. Foco nos 5 checks cr
     - **Média ≥ 8.0:** ✅ `APROVADO PARA DEPLOY`
     - **Média 5.0–7.9:** ⚠️ `DEPLOY COM RESSALVAS` — liste os riscos e os blocos do Engine a executar.
     - **Média < 5.0:** ❌ `DEPLOY BLOQUEADO` — liste os bloqueios e ordem de correção.
+
+

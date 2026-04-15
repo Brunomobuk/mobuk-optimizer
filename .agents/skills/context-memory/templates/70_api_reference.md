@@ -23,3 +23,5 @@
 
 > [!CAUTION]
 > Nunca commite valores reais de variáveis de ambiente. Use `.env.example` como referência.
+
+

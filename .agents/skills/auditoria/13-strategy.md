@@ -22,3 +22,4 @@ description: Avaliar se o projeto tem direção clara e escalabilidade.
 ## Regras
 
 Siga as regras em `.agents/rules/common-patterns.md`.
+

@@ -20,11 +20,12 @@ description: Verificar se documentação e código estão em paridade.
 - **4-6:** Desatualizações significativas
 - **1-3:** Documentação mente sobre o código
 
-**OUTPUT:** Use template AUDITORIA em `templates/output-format.md`.
+**OUTPUT:** Use template AUDITORIA em `.agents/templates/output-format.md`.
 
-Ver exemplo em `templates/output-example.md`.
+Ver exemplo em `.agents/templates/output-example.md`.
 
 > **PAUSA:** Após output, pergunte: "Posso corrigir? [OK] [PULAR] [REFAZER] [PARAR]"
 
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+

@@ -39,3 +39,5 @@ When `any` is detected, immediately output:
 - const payload = result as any;
 + const payload = result as MyInterface;
 ```
+
+

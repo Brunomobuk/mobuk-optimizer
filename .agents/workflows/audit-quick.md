@@ -37,3 +37,5 @@ Avaliação rápida focada nos 6 checks mais críticos: Diagnóstico, Contexto, 
 4.  **Sugestão:**
     - Média < 8.5 → "Execute `/audit` para diagnóstico completo ou `/engine` para corrigir."
     - Média ≥ 8.5 → "Projeto saudável! Execute `/preflight` antes do deploy."
+
+

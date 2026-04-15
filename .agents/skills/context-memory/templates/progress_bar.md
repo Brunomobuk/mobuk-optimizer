@@ -48,3 +48,4 @@ function progressBar(percent, width = 20) {
 [ BARRA ]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
+

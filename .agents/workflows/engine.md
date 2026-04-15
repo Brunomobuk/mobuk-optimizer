@@ -65,3 +65,4 @@ For each area (00 to 18), follow its **TIPO** flow:
 > The average only covers `[CICLO]` areas (02–12), since SCAN, INIT, PLAN, and SYNC are not comparable scores.
 
 After the scorecard, Mobuk Optimizer suggests the next steps based on PLAN (Area 13).
+

@@ -70,3 +70,5 @@ Se uma área exceder o limite:
 **Token budget existe para garantir que o agente não trave em projetos grandes.**
 Se estiver dentro do limite, não otimize desnecessariamente — qualidade > economia.
 Se estiver perto do limite, otimize agressivamente — continuidade > detalhe.
+
+

@@ -27,13 +27,13 @@ description: Identifica stack, classifica o projeto, dá nota de clareza e preen
 - **4-6:** Estrutura confusa ou stack ambígua
 - **1-3:** Projeto caótico, impossível classificar sem exploração profunda
 
-**OUTPUT:** Use template AUDITORIA em `templates/output-format.md`. Também inclua:
+**OUTPUT:** Use template AUDITORIA em `.agents/templates/output-format.md`. Também inclua:
 - [TIPO] Frontend/Backend/Fullstack/API/CLI/Lib/Mobile/Monorepo
 - [STACK] linguagem + framework + versão
 - [ESTADO] Novo / Legado / Caótico
 - [ÁREAS N/A] áreas não aplicáveis
 
-Ver exemplo em `templates/output-example.md`.
+Ver exemplo em `.agents/templates/output-example.md`.
 
 > **PAUSA:** Após output, pergunte: "Posso corrigir? [OK] [PULAR] [REFAZER] [PARAR]"
 
@@ -41,3 +41,4 @@ Ver exemplo em `templates/output-example.md`.
 
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+

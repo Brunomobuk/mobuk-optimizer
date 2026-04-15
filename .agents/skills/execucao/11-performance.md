@@ -25,11 +25,11 @@ Para polir o projeto até o status "Instantâneo" (Padrão Enterprise):
    - Adicione memoização (`useMemo`, `useCallback`) APENAS em operações custosas matemáticas ou props passadas para filhos pesados (`React.memo`).
 - Otimize imagens. Converta SVGs mastodônticos que estejam no componente para arquivo externo referenciado se inflarem o DOM e travarem parsing.
 
-**OUTPUT:** Use template EXECUÇÃO em `templates/output-format.md`. Inclua:
+**OUTPUT:** Use template EXECUÇÃO em `.agents/templates/output-format.md`. Inclua:
 - [OTIMIZAÇÕES] gargalos identificados
 - [IMPACTO] estimativa de melhoria
 
-Ver exemplo em `templates/output_example.md`.
+Ver exemplo em `.agents/templates/output_example.md`.
 
 > **PAUSA:** Após executar, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
@@ -37,3 +37,5 @@ Ver exemplo em `templates/output_example.md`.
 
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+
+

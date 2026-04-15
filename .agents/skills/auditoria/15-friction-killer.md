@@ -23,11 +23,11 @@ description: Identificação de atrito, processos manuais e oportunidades AI-Fir
 - **4-6 (Manual):** Muitos cliques para o "Happy Path", formulários cansativos, zero automação.
 - **1-3 (Obstrutivo):** Interface exige trabalho manual massivo, sem qualquer inteligência preditiva ou atalhos.
 
-**OUTPUT:** Use template AUDITORIA em `templates/output-format.md`. Também inclua:
+**OUTPUT:** Use template AUDITORIA em `.agents/templates/output-format.md`. Também inclua:
 - [GARGALO] processo mais cansativo
 - [MAGIC] onde 1-click IA economizaria 10 clicks
 
-Ver exemplo em `templates/output-example.md`.
+Ver exemplo em `.agents/templates/output-example.md`.
 
 > **PAUSA:** Após output, pergunte: "Posso corrigir? [OK] [PULAR] [REFAZER] [PARAR]"
 
@@ -35,3 +35,4 @@ Ver exemplo em `templates/output-example.md`.
 
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+

@@ -23,14 +23,15 @@ description: Lê specs, prioriza próximas ações e atualiza o roadmap. Sem aud
 3. Liste as **3 próximas prioridades** em ordem de urgência.
 4. Atualize `40_product_specs.md` com o status real de cada feature (✅ / 🚧 / ❌).
 
-**OUTPUT:** Use template EXECUÇÃO em `templates/output-format.md`. Inclua:
+**OUTPUT:** Use template EXECUÇÃO em `.agents/templates/output-format.md`. Inclua:
 - [PRIORIDADES] 3 próximas ações
 - [TIPO] tech_debt/feature/quick_win
 
-Ver exemplo em `templates/output_example.md`.
+Ver exemplo em `.agents/templates/output_example.md`.
 
 > **PAUSA:** Após executar, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
 > 📝 **ATUALIZE APÓS:** `/.context/40_product_specs.md` | `/.context/90_active_memory.md`
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+

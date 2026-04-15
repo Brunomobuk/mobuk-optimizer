@@ -49,17 +49,17 @@ description: Sistema de XP, níveis e badges por área melhorada.
 | 5 | 1000-1499 | Expert |
 | 6 | 1500+ | Master |
 
-**OUTPUT:** Use template EXECUÇÃO em `templates/output-format.md`. Inclua:
+**OUTPUT:** Use template EXECUÇÃO em `.agents/templates/output-format.md`. Inclua:
 - [PROGRESSO] XP gained
 - [BADGES] badges obtidos
 
-Ver exemplo em `templates/output_example.md`.
+Ver exemplo em `.agents/templates/output_example.md`.
 
-**OUTPUT:** Use template EXECUÇÃO em `templates/output-format.md`. Inclua:
+**OUTPUT:** Use template EXECUÇÃO em `.agents/templates/output-format.md`. Inclua:
 - [PROGRESSO] XP gained
 - [BADGES] badges obtidos
 
-Ver exemplo em `templates/output_example.md`.
+Ver exemplo em `.agents/templates/output_example.md`.
 
 > **PAUSA:** Após executar, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
@@ -74,3 +74,4 @@ Ver exemplo em `templates/output_example.md`.
 ```
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+

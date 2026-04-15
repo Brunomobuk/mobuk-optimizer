@@ -31,3 +31,5 @@ erDiagram
 | Entidade | Origem | Tipo |
 |----------|--------|------|
 | `[TO-DO]` | `[TO-DO]` | REST API / Supabase / Local |
+
+

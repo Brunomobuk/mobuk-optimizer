@@ -1,6 +1,6 @@
 # 📋 Templates de Output
 
-> ⚠️ **REGRA:** Use o template adequado conforme o momento. sempre referencie `templates/output-example.md` para exemplo concreto.
+> ⚠️ **REGRA:** Use o template adequado conforme o momento. sempre referencie `.agents/templates/output-example.md` para exemplo concreto.
 
 ---
 
@@ -94,3 +94,4 @@ Deseja o Modo Manual (OK a cada etapa) ou Modo Autopilot?
 | 🔴 | crítico |
 | 🟡 | warning |
 | 🟢 | info |
+

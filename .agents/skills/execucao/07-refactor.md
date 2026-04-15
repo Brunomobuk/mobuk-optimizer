@@ -21,14 +21,15 @@ description: SRP, DRY e quebra de componentes gigantes.
    - **Legibilidade:** Nomes de variáveis verbosos e autoexplicativos (evite `data`, `res`).
 - **Composição:** Quebrar componentes gigantes em UI units burras e lógicas separadas.
 
-**OUTPUT:** Use template EXECUÇÃO em `templates/output-format.md`. Inclua:
+**OUTPUT:** Use template EXECUÇÃO em `.agents/templates/output-format.md`. Inclua:
 - [ARQUIVOS] maiores arquivos a refatorar
 - [PROPOSTA] refatoração para cada um
 
-Ver exemplo em `templates/output_example.md`.
+Ver exemplo em `.agents/templates/output_example.md`.
 
 > **PAUSA:** Após executar, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
 > 📝 **ATUALIZE APÓS:** `/.context/10_architecture.md` | `/.context/90_active_memory.md`
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+

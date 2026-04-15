@@ -19,14 +19,15 @@ description: Identificar stack e classificar o projeto.
 4. Classifique: **Tipo** (Frontend/Backend/Fullstack/API/CLI/Lib/Mobile) e **Estado** (Novo/Legado/Caótico).
 5. Defina quais blocos são **não aplicáveis** para este projeto (ex: Backend puro → skip Blocos 08, 09).
 
-**OUTPUT:** Use template EXECUÇÃO em `templates/output-format.md`. Inclua:
+**OUTPUT:** Use template EXECUÇÃO em `.agentstemplates/output-format.md`. Inclua:
 - [TIPO] Frontend/Backend/Fullstack/API/CLI/Lib/Mobile
 - [STACK] linguagem + framework + versão
 - [ESTADO] Novo/Legado/Caótico
 
-Ver exemplo em `templates/output-example.md`.
+Ver exemplo em `.agentstemplates/output-example.md`.
 
 > **PAUSA:** Após executar, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+

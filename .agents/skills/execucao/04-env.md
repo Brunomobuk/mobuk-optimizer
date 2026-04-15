@@ -28,11 +28,11 @@ Para blindar o repositório no nível de empresas Tier 1:
     - Crie um arquivo `.nvmrc` contendo `20` (ou a versão LTS atual/detectada) para travar a versão do Node.
     - Crie `.editorconfig` com configurações universais (indent 2 spaces, utf-8, insert_final_newline).
 
-**OUTPUT:** Use template EXECUÇÃO em `templates/output-format.md`. Inclua:
+**OUTPUT:** Use template EXECUÇÃO em `.agents/templates/output-format.md`. Inclua:
 - [FERRAMENTAS ATIVADAS] TS strict, Husky, Linter, etc.
 - [ARQUIVOS CRIADOS] .nvmrc, .editorconfig, etc.
 
-Ver exemplo em `templates/output_example.md`.
+Ver exemplo em `.agents/templates/output_example.md`.
 
 > **PAUSA:** Após executar, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
@@ -40,3 +40,4 @@ Ver exemplo em `templates/output_example.md`.
 
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+

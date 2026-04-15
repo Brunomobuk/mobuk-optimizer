@@ -27,3 +27,5 @@ Cada entrada segue:
 
 ### Removido
 - `[TO-DO]`
+
+

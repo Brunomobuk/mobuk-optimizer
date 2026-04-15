@@ -44,3 +44,5 @@ Remover pacotes órfãs e limpar arquivos mortos
 
 💬 Posso corrigir? (OK / PULAR / REPETIR)
 ```
+
+

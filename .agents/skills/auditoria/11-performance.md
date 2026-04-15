@@ -23,11 +23,11 @@ description: Detecção avançada de Gargalos (LCP, CLS, INP), Tree Shaking falh
 - **4-6 (Letárgico):** Bundle gigante injetado inteiro no first load, biblioteca obsoleta e pesada presente.
 - **1-3 (Lento e Engasgando):** Múltiplos queries N+1 detectados congelando retornos de API. Múltiplos Renders infinitos.
 
-**OUTPUT:** Use template AUDITORIA em `templates/output-format.md`. Também inclua:
+**OUTPUT:** Use template AUDITORIA em `.agents/templates/output-format.md`. Também inclua:
 - [ACHADOS] maiores gargalos encontrados
 - [RISCO] onde melhorar performance com menos esforço
 
-Ver exemplo em `templates/output-example.md`.
+Ver exemplo em `.agents/templates/output-example.md`.
 
 > **PAUSA:** Após output, pergunte: "Posso corrigir? [OK] [PULAR] [REFAZER] [PARAR]"
 
@@ -35,3 +35,4 @@ Ver exemplo em `templates/output-example.md`.
 
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+

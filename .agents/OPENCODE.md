@@ -90,3 +90,4 @@ MOjuk_VERBOSE=true       # Logs detalhados
 | Memória cheia | Limpe `.context/` e reinicie |
 
 > Para mais detalhes, consulte: `.agents/README.md`
+

@@ -22,9 +22,9 @@ description: Avaliar legibilidade, reusabilidade e manutenibilidade.
 - **4-6:** Várias funções longas, duplicação visível
 - **1-3:** God Classes, nomenclatura obscura, copy-paste endêmico
 
-**OUTPUT:** Use template AUDITORIA em `templates/output-format.md`.
+**OUTPUT:** Use template AUDITORIA em `.agents/templates/output-format.md`.
 
-Ver exemplo em `templates/output-example.md`.
+Ver exemplo em `.agents/templates/output-example.md`.
 
 > **PAUSA:** Após output, pergunte: "Posso corrigir? [OK] [PULAR] [REFAZER] [PARAR]"
 
@@ -32,3 +32,4 @@ Ver exemplo em `templates/output-example.md`.
 
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+

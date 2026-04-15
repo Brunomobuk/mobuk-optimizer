@@ -23,10 +23,10 @@ description: Avaliação profunda de como os dados são fetcheados, cacheados e 
 - **4-6 (Acoplado):** Extenso uso do antipattern `useEffect` para fetch, Prop Drilling óbvio (components burros com 15 props).
 - **1-3 (Caótico):** Componentes React chamam a API, filtram dados e rendem HTML. Rotas Node fazem queries SQL diretas.
 
-**OUTPUT:** Use template AUDITORIA em `templates/output-format.md`. Também inclua:
+**OUTPUT:** Use template AUDITORIA em `.agents/templates/output-format.md`. Também inclua:
 - [ANTIPATTERN] maior problema arquitetural
 
-Ver exemplo em `templates/output-example.md`.
+Ver exemplo em `.agents/templates/output-example.md`.
 
 > **PAUSA:** Após output, pergunte: "Posso corrigir? [OK] [PULAR] [REFAZER] [PARAR]"
 
@@ -34,3 +34,4 @@ Ver exemplo em `templates/output-example.md`.
 
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+

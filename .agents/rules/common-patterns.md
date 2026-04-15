@@ -4,8 +4,8 @@
 
 ## Output
 
-- **Auditoria:** `.agents/templates/output-format.md`
-- **Execução:** `.agents/templates/output-format-execucao.md`
+- **Auditoria:** `.agentstemplates/output-format.md`
+- **Execução:** `.agentstemplates/output-format-execucao.md`
 - Formato: **compacto**, máximo 1 linha por bullet. Zero prosa.
 
 ## Barra de Progresso
@@ -56,3 +56,5 @@ Respostas e `.context`: **PT-BR**. Raciocínio: English.
 ## Token Economy
 
 Carregue **apenas** o arquivo da área atual.
+
+

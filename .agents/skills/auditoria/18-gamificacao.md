@@ -22,14 +22,15 @@ description: Verificar se o sistema de gamificação está ativo e funcionando.
 - **4-6:** Apenas estrutura sem uso
 - **1-3:** Gamificação inexistente
 
-**OUTPUT:** Use template AUDITORIA em `templates/output-format.md`. Também inclua:
+**OUTPUT:** Use template AUDITORIA em `.agents/templates/output-format.md`. Também inclua:
 - [NÍVEL] atual
 - [XP] acumulado
 
-Ver exemplo em `templates/output_example.md`.
+Ver exemplo em `.agents/templates/output_example.md`.
 
 > **PAUSA:** Após output, pergunte: "Posso ativar? [OK] [PULAR] [REFAZER] [PARAR]"
 
 > 📝 **ATUALIZE APÓS (execução):** `/.context/90_active_memory.md`
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+

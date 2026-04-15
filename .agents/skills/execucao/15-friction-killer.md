@@ -24,11 +24,11 @@ description: Implementação de Smart Actions, IA Inline e redução de atrito.
 **DIFERENCIAL:**
 - Implemente micro-interações que confirmem a automação (ex: um brilho sutil ou progresso rápido).
 
-**OUTPUT:** Use template EXECUÇÃO em `templates/output-format.md`. Inclua:
+**OUTPUT:** Use template EXECUÇÃO em `.agents/templates/output-format.md`. Inclua:
 - [MELHORIAS] smart actions implementadas
 - [IMPACTO] where 1-click economiza 10 clicks
 
-Ver exemplo em `templates/output_example.md`.
+Ver exemplo em `.agents/templates/output_example.md`.
 
 > **PAUSA:** Após output, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
@@ -36,3 +36,4 @@ Ver exemplo em `templates/output_example.md`.
 
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+

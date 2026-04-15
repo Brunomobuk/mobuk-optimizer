@@ -33,7 +33,7 @@ The `execucao/` folder contains **16 action blocks** (00-15), each targeting a s
 
 ## Output Format
 
-Refer to the centralized templates registry at `.agents/templates/registry.json` for the mapping of this execution's output template. Outputs must follow `templates/output-format.md` and examples in `templates/output-example.md`.
+Refer to the centralized templates registry at `.agents/templates/registry.json` for the mapping of this execution's output template. Outputs must follow `.agents/templates/output-format.md` and examples in `.agents/templates/output-example.md`.
 
 > ⚠️ REGRA: Sempre use este template.
 
@@ -52,3 +52,5 @@ Refer to the centralized templates registry at `.agents/templates/registry.json`
 5. **Update .context:** Post-execution, update relevant context files
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+
+

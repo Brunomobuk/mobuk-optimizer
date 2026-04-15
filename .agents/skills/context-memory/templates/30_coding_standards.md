@@ -38,3 +38,5 @@
 | Commit | `tipo(escopo): mensagem` |
 | Branch | `tipo/descricao-curta` |
 | Tipos | `feat`, `fix`, `refactor`, `docs`, `chore`, `test` |
+
+

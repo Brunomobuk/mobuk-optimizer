@@ -40,3 +40,5 @@
 
 > [!IMPORTANT]
 > Extraia versões exatas do `package.json`. Nunca use "latest".
+
+

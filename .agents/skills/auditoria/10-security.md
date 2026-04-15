@@ -24,10 +24,10 @@ description: Auditoria de vulnerabilidades de DevSecOps, headers, XSS, injeçõe
 - **4-6 (Vulnerável):** Inputs e XSS pouco tratados, CORS `*` indiscriminado, validação de payload fraca.
 - **1-3 (Exposto):** Senhas hardcoded, injeção de SQL fácil, chaves de API commitadas.
 
-**OUTPUT:** Use template AUDITORIA em `templates/output_format.md`. Também inclua:
+**OUTPUT:** Use template AUDITORIA em `.agentstemplates/output-format.md`. Também inclua:
 - [RISCO] pior risco identificado
 
-Ver exemplo em `templates/output_example.md`.
+Ver exemplo em `.agentstemplates/output-example.md`.
 
 > **PAUSA:** Após output, pergunte: "Posso corrigir? [OK] [PULAR] [REFAZER] [PARAR]"
 
@@ -35,3 +35,4 @@ Ver exemplo em `templates/output_example.md`.
 
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+

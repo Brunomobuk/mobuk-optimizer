@@ -29,13 +29,14 @@ Aplique as proteções obrigatórias para um sistema nível Enterprise:
 4. **Validação Robusta:**
     - Garanta uso de Schema Validation (Zod, Joi, Yup) nas pontas (formulários ou DTOs de Backend) antes que os dados cheguem à camada de negócios.
 
-**OUTPUT:** Use template EXECUÇÃO em `templates/output-format.md`. Inclua:
+**OUTPUT:** Use template EXECUÇÃO em `.agents/templates/output-format.md`. Inclua:
 - [SEGUROS] segredos movidos para .env
 - [HEADERS] helmet, CORS configurados
 - [VALIDAÇÃO] schema validation aplicada
 
-Ver exemplo em `templates/output_example.md`.
+Ver exemplo em `.agents/templates/output_example.md`.
 
 > **PAUSA:** Após executar, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
 > 📝 **ATUALIZE APÓS:** `/.context/90_active_memory.md`
+

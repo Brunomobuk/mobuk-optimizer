@@ -26,13 +26,14 @@ Para garantir um código cristalino ("Padrão Produção Tier 1"):
    - Remova `console.log` e debugs afins (preserve `console.error` ou sugerir logger estruturado como Winston/Pino se backend).
 4. **Resolução de Dívidas:** Reveja os `TODO` e `FIXME`. Avalie se podem ser resolvidos na hora. Se não, centralize-os na documentação.
 
-**OUTPUT:** Use template EXECUÇÃO em `templates/output-format.md`. Inclua:
+**OUTPUT:** Use template EXECUÇÃO em `.agents/templates/output-format.md`. Inclua:
 - [TIPOS CORRIGIDOS] any → tipos exatos
 - [SUPRESSÕES REMOVIDAS] ts-ignore/eslint-disable
 - [LIXO REMOVIDO] console.log, código comentado
 
-Ver exemplo em `templates/output_example.md`.
+Ver exemplo em `.agents/templates/output_example.md`.
 
 > **PAUSA:** Após executar, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
 > 📝 **ATUALIZE APÓS:** `/.context/90_active_memory.md` (inclua relatório de dívida técnica)
+

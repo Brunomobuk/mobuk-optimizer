@@ -62,3 +62,4 @@ Funciona com qualquer IA que execute agentes. Para opencode:
 
 ---
 **Dica:** Ao digitar `/engine`, o Mobuk Optimizer vai te perguntar se prefere o modo Manual ou Autopilot.
+

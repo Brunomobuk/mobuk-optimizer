@@ -25,10 +25,10 @@ description: Avalia a centralização de estilos, suporte a Dark Mode real e pro
 - **4-6:** Design System inexistente. Muito hardcode, falhas estruturais em temas.
 - **1-3:** CSS caótico, impossível mudar o tema sem quebrar páginas (listras, contrastes ilegíveis).
 
-**OUTPUT:** Use template AUDITORIA em `templates/output-format.md`. Também inclua:
+**OUTPUT:** Use template AUDITORIA em `.agents/templates/output-format.md`. Também inclua:
 - [DESIGN SYSTEM] nível de centralização
 
-Ver exemplo em `templates/output-example.md`.
+Ver exemplo em `.agents/templates/output-example.md`.
 
 > **PAUSA:** Após output, pergunte: "Posso corrigir? [OK] [PULAR] [REFAZER] [PARAR]"
 
@@ -36,3 +36,4 @@ Ver exemplo em `templates/output-example.md`.
 
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+

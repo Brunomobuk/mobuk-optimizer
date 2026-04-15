@@ -49,3 +49,5 @@ Templates are available in `templates/` under this skill.
 Use workflow `/context-init` for automatic installation.
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+
+

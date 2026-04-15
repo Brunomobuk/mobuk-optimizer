@@ -25,13 +25,14 @@ description: Compara docs vs código e atualiza .context diretamente. Sem ciclo 
 3. Atualize o `README.md` da raiz com comandos de setup que funcionem agora.
 4. Reporte as mudanças feitas:
 
-**OUTPUT:** Use template EXECUÇÃO em `templates/output-format.md`. Inclua:
+**OUTPUT:** Use template EXECUÇÃO em `.agents/templates/output-format.md`. Inclua:
 - [ATUALIZADOS] arquivos .context atualizados
 - [SEM MUDANÇA] arquivos em paridade
 
-Ver exemplo em `templates/output_example.md`.
+Ver exemplo em `.agents/templates/output_example.md`.
 
 > **PAUSA:** Após output, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+

@@ -93,3 +93,5 @@ Remover pacotes órfãs e limpar arquivos mortos
 🏆 Badge Desbloqueado: 🧹 Clean Code
 Detox completo — repositório cirurgicamente limpo
 ```
+
+

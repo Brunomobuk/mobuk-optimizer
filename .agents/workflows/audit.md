@@ -23,3 +23,5 @@ Project X-Ray across **19 áreas** (00-18). Outcome: scoreboard with ratings fro
 
 - If average < 8.5: Suggest running `/engine` for the Master Agent to initiate corrections.
 - If average ≥ 8.5: Suggest running `/preflight` for final deploy validation.
+
+

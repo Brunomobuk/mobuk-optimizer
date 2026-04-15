@@ -23,13 +23,14 @@ description: Verificar se o consumo de tokens está otimizado.
 - **4-6:** Ineficiências visíveis
 - **1-3:** Alto desperdício de recursos
 
-**OUTPUT:** Use template AUDITORIA em `templates/output-format.md`. Também inclua:
+**OUTPUT:** Use template AUDITORIA em `.agents/templates/output-format.md`. Também inclua:
 - [OPORTUNIDADES] áreas de otimização
 
-Ver exemplo em `templates/output_example.md`.
+Ver exemplo em `.agents/templates/output_example.md`.
 
 > **PAUSA:** Após output, pergunte: "Posso corrigir? [OK] [PULAR] [REFAZER] [PARAR]"
 
 > 📝 **ATUALIZE APÓS (execução):** `/.context/90_active_memory.md`
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+

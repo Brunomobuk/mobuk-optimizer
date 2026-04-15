@@ -56,3 +56,4 @@ Before committing visual changes, verify:
 - [ ] All transitions use `var(--transition-*)`
 - [ ] Dark mode behaves natively without breaking
 - [ ] Newly introduced tokens are registered in `50_ui_ux_guide.md`
+

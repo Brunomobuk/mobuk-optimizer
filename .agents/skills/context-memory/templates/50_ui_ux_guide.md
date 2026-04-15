@@ -159,3 +159,5 @@
 | Empty state | `[VERIFICAR]` | `[DESCREVER]` |
 | Error state | `[VERIFICAR]` | `[DESCREVER]` |
 | Transições de página | `[VERIFICAR]` | `[DESCREVER]` |
+
+

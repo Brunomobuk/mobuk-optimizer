@@ -24,10 +24,10 @@ description: Sistema de limite e otimização automática de tokens por área.
 - **Truncation:** Cortar output em ~150 linhas
 - **Table-Only:** Respostas em tabelas quando possível
 
-**OUTPUT:** Use template EXECUÇÃO em `templates/output-format.md`. Inclua:
+**OUTPUT:** Use template EXECUÇÃO em `.agents/templates/output-format.md`. Inclua:
 - [OPORTUNIDADES] áreas de otimização identificadas
 
-Ver exemplo em `templates/output_example.md`.
+Ver exemplo em `.agents/templates/output_example.md`.
 
 > **PAUSA:** Após executar, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
@@ -36,3 +36,4 @@ Ver exemplo em `templates/output_example.md`.
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+

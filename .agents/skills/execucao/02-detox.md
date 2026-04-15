@@ -25,12 +25,12 @@ Para garantir um repositório "Pristine" (padrão World-Class):
 4. **Validation Pipeline:**
     - OBRIGATÓRIO: Rode o comando de type-check (ex: `tsc --noEmit`) ou linter para provar que a remoção não quebrou importações ocultas.
 
-**OUTPUT:** Use template EXECUÇÃO em `templates/output-format.md`. Inclua:
+**OUTPUT:** Use template EXECUÇÃO em `.agents/templates/output-format.md`. Inclua:
 - [PACOTES REMOVIDOS] bibliotecas desinstaladas
 - [ARQUIVOS DELETADOS] arquivos zumbis removidos
 - [ESPAÇO LIBERADO] KB/MB salvos
 
-Ver exemplo em `templates/output_example.md`.
+Ver exemplo em `.agents/templates/output_example.md`.
 
 > **PAUSA:** Após executar, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
@@ -38,3 +38,4 @@ Ver exemplo em `templates/output_example.md`.
 
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+

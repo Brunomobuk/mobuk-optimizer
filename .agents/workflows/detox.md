@@ -19,3 +19,5 @@ Executa limpeza e sanitização com ciclo Audit → Execute → Verify em 2 áre
     - Nota < 8.5 → carregue `skills/execucao/06-sanitization.md` → aplique → re-audite.
 
 3.  **Resultado:** Mostre tabela Antes/Depois das 2 áreas com Delta de notas.
+
+

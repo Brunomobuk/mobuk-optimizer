@@ -23,7 +23,7 @@ description: Análise rigorosa de dead code, lixo digital e dependências órfã
 - **4-6 (Descuidado):** 4-10 arquivos lixo/mortos, dependências pesadas sem uso.
 - **1-3 (Tóxico):** Arquivos temporários commitados, dezenas de bibliotecas órfãs consumindo build time.
 
-**OUTPUT:** Use template em `templates/output-format.md`. Ver exemplo em `templates/output-example.md`.
+**OUTPUT:** Use template em `.agents/templates/output-format.md`. Ver exemplo em `.agents/templates/output-example.md`.
 
 > **PAUSA:** Após output, pergunte: "Posso corrigir? [OK] [PULAR] [REFAZER] [PARAR]"
 
@@ -31,3 +31,4 @@ description: Análise rigorosa de dead code, lixo digital e dependências órfã
 
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+

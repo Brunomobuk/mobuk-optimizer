@@ -23,11 +23,11 @@ Para garantir um fluxo de dados à prova de erros, performático e resiliente (P
    - Proponha a quebra: `Rota` (valida request) -> `Controller` (orquestra) -> `Service` (lógica de negócios) -> `Repository` (query no DB).
    - NENHUMA rota/controller deve conter consultas literais ao banco.
 
-**OUTPUT:** Use template EXECUÇÃO em `templates/output-format.md`. Inclua:
+**OUTPUT:** Use template EXECUÇÃO em `.agents/templates/output-format.md`. Inclua:
 - [ANTIPATTERNS] padrões detectados
 - [REFATORAÇÃO] como será corrigido
 
-Ver exemplo em `templates/output_example.md`.
+Ver exemplo em `.agents/templates/output_example.md`.
 
 > **PAUSA:** Após executar, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
@@ -35,3 +35,4 @@ Ver exemplo em `templates/output_example.md`.
 
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+

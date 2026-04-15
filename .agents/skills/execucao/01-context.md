@@ -27,14 +27,15 @@ description: Criar/atualizar documentação .context.
    - `80_changelog.md` → inicialize com a data atual e "Criação do .context"
    - `90_active_memory.md` → registre o sprint atual
    - Demais → preencha o que for possível, marque o resto como `[TO-DO]`
-**OUTPUT:** Use template EXECUÇÃO em `templates/output-format.md`. Inclua:
+**OUTPUT:** Use template EXECUÇÃO em `.agents/templates/output-format.md`. Inclua:
 - [CRIADOS] arquivos .context criados
 - [ATUALIZADOS] arquivos atualizados
 - [PENDENTES] arquivos com [TO-DO]
 
-Ver exemplo em `templates/output_example.md`.
+Ver exemplo em `.agents/templates/output_example.md`.
 
 > **PAUSA:** Após executar, pergunte: "Posso continuar? [OK] [PULAR] [PARAR]"
 
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
+
