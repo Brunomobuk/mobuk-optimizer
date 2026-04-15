@@ -1,6 +1,6 @@
 # Barra de Progresso do Engine
 
-> Header visual de cada resposta do `/engine`.
+> Header visual de cada resposta do `/iniciar`.
 > Barra fixa de 10 chars. Compacto. Sem caixas.
 
 ## Auditoria

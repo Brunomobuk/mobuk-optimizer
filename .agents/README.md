@@ -1,6 +1,6 @@
 # 🚀 Universal Engine (Agent-Led)
 
-> Copie `.agents/` para a raiz de qualquer projeto. Digite `/engine`. O Mobuk Optimizer assume.
+> Copie `.agents/` para a raiz de qualquer projeto. Digite `/iniciar`. O Mobuk Optimizer assume.
 
 ## Estrutura do Toolkit
 
@@ -41,25 +41,21 @@ O sistema opera por padrão no **Modo Manual**, garantindo que nada seja alterad
 4.  **Verificação:** Ele re-avalia e te mostra o resultado.
 5.  **Seu OK:** Você diz "OK" para ele pular para a próxima área.
 
-## Comandos Principais
+## Comandos Principais (3 modos)
 
 | Comando | O que faz |
 |---------|-----------|
-| `/engine` | **Inicia o Mobuk Optimizer** — ciclo completo com aprovação passo a passo |
-| `/audit` | Apenas Auditoria (19 checks completos) |
-| `/audit-quick` | Auditoria rápida (5 checks) |
-| `/context-init` | Inicializa a memória `.context/` do projeto |
-| `/detox` | Limpeza + sanitização |
-| `/polish` | Visual + UX |
-| `/preflight` | Checklist pré-deploy |
+| `/iniciar` | **Ciclo completo** — auditoria + correção com aprovação passo a passo |
+| `/auditar` | Apenas diagnóstico — gera scorecard |
+| `/validar` | Checklist pré-deploy — ambiente, segurança, QA, performance |
 
 ## Integração com opencode
 
 Funciona com qualquer IA que execute agentes. Para opencode:
 1. Copie `.agents/` para o projeto
 2. O agente lê `agent/MOBUK-OPTIMIZER.md` como entrada
-3. Execute `/engine` para iniciar o ciclo
+3. Execute `/iniciar` para iniciar o ciclo
 
 ---
-**Dica:** Ao digitar `/engine`, o Mobuk Optimizer vai te perguntar se prefere o modo Manual ou Autopilot.
+**Dica:** Ao digitar `/iniciar`, o Mobuk Optimizer vai te perguntar se prefere o modo Manual ou Autopilot.
 

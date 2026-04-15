@@ -21,9 +21,8 @@ Remover pacotes órfãs e limpar arquivos mortos
 
 | Nota | Status |
 |------|--------|
-| ≥ 8.5 | ✅ Aprovado |
-| 6.0–8.4 | ️ Atenção |
-| < 6.0 |  Crítico |
+| = 10 | ✅ Aprovado |
+| < 10 | ️ Atenção |
 
 ## Exemplo Completo
 

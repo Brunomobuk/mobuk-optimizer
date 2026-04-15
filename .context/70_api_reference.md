@@ -2,17 +2,13 @@
 
 > Este projeto não expõe API HTTP. Os "endpoints" são comandos CLI slash.
 
-## Comandos Disponíveis
+## Comandos Disponíveis (3 modos)
 
 | Comando | Descrição |
 |---------|-----------|
-| `/engine` | Inicia ciclo completo 00→18 |
-| `/audit` | Auditoria completa 00→16 |
-| `/audit-quick` | Auditoria express (6 checks) |
-| `/preflight` | Checklist pré-deploy (5 checks) |
-| `/detox` | Limpeza rápida (áreas 02, 06) |
-| `/polish` | UI+UX rápida (áreas 08, 09) |
-| `/context-init` | Inicializa `.context/` |
+| `/iniciar` | Ciclo completo 00→18 (audit + fix) |
+| `/auditar` | Apenas diagnóstico 00→18 |
+| `/validar` | Checklist pré-deploy (5 checks) |
 
 ## Interação com o Agente
 

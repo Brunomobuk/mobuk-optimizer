@@ -38,8 +38,8 @@ Refer to the centralized templates registry at `.agents/templates/registry.json`
 
 ## Usage
 
-- **Full Audit:** Use `/audit` workflow (all 18 checks)
-- **Quick Audit:** Use `/audit-quick` workflow (5 checks only)
+- **Full Audit:** Use `/auditar` workflow (all 18 checks)
+- **Quick Audit:** Use `/auditar` (same as full - simplified)
 - **Single Check:** Load just the file needed (e.g., `02-detox.md`)
 
 ## Golden Rules
@@ -47,7 +47,7 @@ Refer to the centralized templates registry at `.agents/templates/registry.json`
 1. **READ-ONLY:** Never modify code during audit
 2. **Token Economy:** Load only the current check file
 3. **PT-BR Output:** All responses in Portuguese
-4. **Score Threshold:** ≥ 8.5 to pass
+4. **Score Threshold:** = 10 (only perfect = pass)
 
 > ⚠️ **STRICT MANDATE:** All internal reasoning is English, but you MUST output responses, code, and context updates to the user strictly in **PT-BR**.
 

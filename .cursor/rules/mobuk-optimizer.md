@@ -16,10 +16,10 @@ Update it AFTER each area completion, along with `.context/80_changelog.md`.
 → 16-SelfHealing → 17-TokenBudgeting → 18-Gamification
 ```
 
-## Commands
-- `/engine` — Full cycle
-- `/audit` — Diagnosis only
-- `/audit-quick` — 6 essential checks
+## Commands (3 modes)
+- `/iniciar` — Full cycle
+- `/auditar` — Diagnosis only
+- `/validar` — Pre-deploy checklist
 
 ## Key Rules
 - Read `.context/90_active_memory.md` first

@@ -57,7 +57,7 @@ Mapa unificado de todas as áreas. Cada área tem **dois arquivos** (quando apli
 4. **Output PT-BR:** Todas as respostas em Português
 5. **Verifique após execução:** Re-audite para confirmar correção
 6. **Atualize `.context`:** Pós-execução, atualize os arquivos `.context` indicados em cada skill
-7. **Threshold de Score:** ≥ 8.5 para aprovação em auditorias
+7. **Threshold de Score:** = 10 para aprovação (only perfect = pass)
 
 ## Formatos de Output
 
@@ -86,17 +86,13 @@ Barra exibida automaticamente pelo agente em cada resposta:
 
 Template completo: `.agents/templates/progress-bar.md`
 
-## Workflows
+## Workflows (3 modos)
 
 | Workflow | Descrição | Áreas |
 |----------|-----------|-------|
-| `/engine` | Ciclo completo com aprovação | 00 → 18 |
-| `/audit` | Auditoria completa | 00 → 16 |
-| `/audit-quick` | Auditoria express | 00, 01, 02, 04, 06, 12 |
-| `/preflight` | Checklist pré-deploy | 04, 10, 11, 12, 14 |
-| `/detox` | Limpeza rápida | 02, 06 |
-| `/polish` | UI + UX rápida | 08, 09 |
-| `/context-init` | Inicializar `.context/` | 01 |
+| `/iniciar` | Ciclo completo (audit + fix) | 00 → 18 |
+| `/auditar` | Apenas diagnóstico | 00 → 18 |
+| `/validar` | Pré-deploy checklist | 04, 10, 11, 12, 14 |
 
 > ⚠️ **MANDATO:** Todo raciocínio interno é em English, mas respostas devem ser estritamente em **PT-BR**.
 

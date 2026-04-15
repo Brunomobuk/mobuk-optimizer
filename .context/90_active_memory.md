@@ -36,6 +36,6 @@
 
 ## Para Próxima Sessão
 
-- Testar `/engine` em um projeto real
+- Testar `/iniciar` em um projeto real
 - Validar que IDEs reconhecem CLAUDE.md/AGENTS.md
 - Confirmar que 90_active_memory é atualizado corretamente

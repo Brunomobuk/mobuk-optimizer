@@ -24,14 +24,14 @@ O agente exibe automaticamente em cada resposta:
 ▰▰▰▰▰▱▱▱▱▱  50% · 🟡 6.5 → 🟢 9.0 ↗
 ```
 
-**Cores:**  0-3.9 ·  4-5.9 ·  6-7.4 ·  7.5-8.9 ·  9-10
+**Cores:**  0-3.9 = 🔴 ·  4-5.9 = 🟠 ·  6-7.4 = 🟡 ·  7.5-9.9 = 🟢 ·  10 = 🔵
 
 ## ⚠️ PAUSA OBRIGATÓRIA
 
 **Após exibir o resultado, você DEVE parar e esperar.**
 
-- **CICLO com nota < 8.5:** `"Posso corrigir? (OK / PULAR / REPETIR)"`
-- **SCAN/INIT/PLAN/SYNC ou CICLO ≥ 8.5:** `"Avançar? (OK / PARAR)"`
+- **CICLO com nota < 10:** `"Posso corrigir? (OK / PULAR / REPETIR)"`
+- **SCAN/INIT/PLAN/SYNC ou CICLO = 10:** `"Avançar? (OK / PARAR)"`
 - **Após execução:** `"Avançar para área X+1? (OK)"`
 
 **NUNCA prossiga sem resposta. NUNCA encadeie áreas. NUNCA diga "concluído" antes da área 18.**

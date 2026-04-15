@@ -32,27 +32,23 @@ Framework de Agentes — organização modular por camada funcional.
 │           ├── 80_changelog.md
 │           └── 90_active_memory.md
 └── workflows/                          # Slash commands
-    ├── audit.md                        # /audit — 19 checks completos
-    ├── audit-quick.md                  # /audit-quick — 6 checks essenciais
-    ├── engine.md                       # /engine — pipeline self-driving
-    ├── context-init.md                 # /context-init — setup .context
-    ├── detox.md                        # /detox — limpeza + sanitização
-    ├── polish.md                       # /polish — visual + UX
-    └── preflight.md                    # /preflight — checklist pré-deploy
+    ├── iniciar.md                      # /iniciar — ciclo completo
+    ├── auditar.md                   # /auditar — diagnóstico
+    └── validar.md                   # /validar — pré-deploy
 ```
 
 ## Fluxo de Dados
 
 ```mermaid
 graph TD
-    U[Usuário digita /engine] --> W[workflows/engine.md]
+    U[Usuário digita /iniciar] --> W[workflows/iniciar.md]
     W --> A[skills/auditoria/SKILL.md]
     W --> E[skills/execucao/SKILL.md]
-    A -->|check N| SCORE{Nota ≥ 8.5?}
+    A -->|check N| SCORE{Nota = 10?}
     SCORE -->|Sim| SKIP[SKIP → próximo]
     SCORE -->|Não| E
     E -->|executa bloco N| A2[Re-audit check N]
-    A2 --> SCORE2{Nota ≥ 8.5?}
+    A2 --> SCORE2{Nota = 10?}
     SCORE2 -->|Sim| SKIP
     SCORE2 -->|Não| RETRY[Retry max 2x]
     RETRY --> E
@@ -64,6 +60,6 @@ graph TD
 | Decisão | Escolha | Motivo |
 |---------|---------|--------|
 | Skills separadas | audit + engine + context-memory | Token economy — cada workflow carrega só o necessário |
-| Ciclo por bloco | Audit → Execute → Verify | Garante qualidade incremental com threshold 8.5 |
+| Ciclo por bloco | Audit → Execute → Verify | Garante qualidade com nota 10 |
 | Detecção de stack | Check 00 classifica projeto | Permite pular checks/blocos N/A automaticamente |
 | Templates em branco | Marcadores `[EXTRAIR]` | IA preenche após análise real do projeto |

@@ -39,7 +39,7 @@ Refer to the centralized templates registry at `.agents/templates/registry.json`
 
 ## Usage
 
-- **Full Cycle:** Use `/engine` workflow (all 18 blocks)
+- **Full Cycle:** Use `/iniciar` workflow (all 18 blocks)
 - **Single Block:** Load just the file needed (e.g., `07-refactor.md`)
 - **Token Economy:** Only load current block file
 

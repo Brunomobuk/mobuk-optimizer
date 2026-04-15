@@ -1,5 +1,14 @@
 # 📝 Changelog
 
+## [1.1.0] - 2026-04-15
+
+### Alterado
+- Simplificação de comandos: 7 modos → 3 modos
+- `/engine` → `/iniciar` (ciclo completo)
+- `/audit` + `/audit-quick` → `/auditar` (diagnóstico)
+- `/preflight` → `/validar` (pré-deploy)
+- Remoção de `/detox`, `/polish`, `/context-init`, `/audit-quick` — mesclados em `/iniciar`
+
 ## [1.0.1] - 2026-04-14
 
 ### Corrigido
@@ -20,7 +29,7 @@
 - Skills: `auditoria/SKILL.md` (19 checks diagnósticos read-only)
 - Skills: `execucao/SKILL.md` (19 blocos de ação)
 - Skills: `context-memory/SKILL.md` + 10 templates
-- Workflows: `/audit`, `/audit-quick`, `/engine`, `/context-init`, `/detox`, `/polish`, `/preflight`
+- Workflows: `/iniciar`, `/auditar`, `/validar`
 - Rules: `universal.md`, `zero-any-tolerance.md`, `design-system.md`, `ai-first-patterns.md`, `common-patterns.md`, `token-budget.md`
 - README.md com quick start
 - Ciclo: AUDIT → EXECUTE → VERIFY com threshold 8.5

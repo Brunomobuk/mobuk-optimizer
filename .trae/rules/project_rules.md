@@ -16,12 +16,9 @@ Mobuk Optimizer is an AI-driven project optimization engine. It runs Audit → E
 → 16-SelfHealing → 17-TokenBudgeting → 18-Gamification
 ```
 
-## Workflow
-- `/engine` — Full cycle (all 19 areas)
-- `/audit` — Diagnosis only
-- `/audit-quick` — 6 essential checks
-- `/detox` — Clean up
-- `/polish` — UI + UX
-- `/preflight` — Pre-deploy checklist
+## Workflow (3 modes)
+- `/iniciar` — Full cycle (audit + fix)
+- `/auditar` — Diagnosis only
+- `/validar` — Pre-deploy checklist
 
 ## NEVER skip user approval between Audit → Execute → Next area

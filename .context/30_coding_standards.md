@@ -5,7 +5,7 @@
 | Tipo | Padrão | Exemplo |
 |------|--------|---------|
 | Skills | `SKILL.md` dentro de pasta nomeada | `skills/audit/SKILL.md` |
-| Workflows | kebab-case `.md` | `workflows/audit-quick.md` |
+| Workflows | kebab-case `.md` | `workflows/iniciar.md` |
 | Rules | kebab-case `.md` | `rules/zero-any-tolerance.md` |
 | Templates | `NN_snake_case.md` (numerados) | `templates/50_ui_ux_guide.md` |
 

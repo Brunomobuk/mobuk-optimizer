@@ -1,8 +1,8 @@
 ---
-description: Checklist pré-deploy — verifica ambiente, segurança, performance, testes e sincronização antes de publicar.
+description: Checklist pré-deploy — valida ambiente, segurança, performance, testes e sincronização.
 ---
 
-# /preflight — Checklist Pré-Deploy
+# /validar — Checklist Pré-Deploy
 
 Validação final antes de colocar o projeto em produção. Foco nos 5 checks críticos.
 
@@ -35,7 +35,5 @@ Validação final antes de colocar o projeto em produção. Foco nos 5 checks cr
 
 4.  **Veredito:**
     - **Média ≥ 8.0:** ✅ `APROVADO PARA DEPLOY`
-    - **Média 5.0–7.9:** ⚠️ `DEPLOY COM RESSALVAS` — liste os riscos e os blocos do Engine a executar.
+    - **Média 5.0–7.9:** ⚠️ `DEPLOY COM RESSALVAS` — liste os riscos e as áreas do Engine a executar.
     - **Média < 5.0:** ❌ `DEPLOY BLOQUEADO` — liste os bloqueios e ordem de correção.
-
-

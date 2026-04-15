@@ -2,8 +2,8 @@
 
 | Campo | Valor |
 |-------|-------|
-| **Versão** | 1.0.0 |
-| **Data de Lançamento** | 2026-04-07 |
+| **Versão** | 1.1.0 |
+| **Data de Lançamento** | 2026-04-15 |
 | **Status** | 🟢 Estável |
 | **Changelog** | Ver `.context/80_changelog.md` |
 
@@ -20,6 +20,7 @@ MAJOR.MINOR.PATCH
 
 | Versão | Data | Notas |
 |--------|------|-------|
+| 1.1.0 | 2026-04-15 | Simplificação de comandos (7 → 3 modos) |
 | 1.0.0 | 2026-04-07 | Lançamento inicial |
 
 ## Atualização

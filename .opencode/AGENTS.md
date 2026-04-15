@@ -4,7 +4,7 @@
 Universal AI-driven project optimization engine. Runs Audit → Execute cycles across 19 areas.
 
 ## How It Works
-1. Run `/engine` to start full cycle
+1. Run `/iniciar` to start full cycle
 2. Each area: Audit (diagnosis) → YOUR OK → Execute (fix) → YOUR OK → next area
 3. ALWAYS read `.context/90_active_memory.md` BEFORE starting — it shows WHERE WE LEFT OFF
 
@@ -25,12 +25,12 @@ Universal AI-driven project optimization engine. Runs Audit → Execute cycles a
 ## Areas (19)
 00-Diagnosis → 01-Context → 02-Detox → 03-Structure → 04-Env → 05-Data → 06-Sanitization → 07-Refactor → 08-Visual → 09-UX → 10-Security → 11-Performance → 12-QA → 13-Strategy → 14-Sync → 15-FrictionKiller → 16-SelfHealing → 17-TokenBudgeting → 18-Gamification
 
-## Commands
+## Commands (3 modes)
 | Command | Description |
 |---------|-----------|
-| /engine | Full cycle (all 19 areas) |
-| /audit | Diagnosis only |
-| /audit-quick | 6 essential checks |
+| /iniciar | Full cycle (audit + fix) |
+| /auditar | Diagnosis only |
+| /validar | Pre-deploy checklist |
 
 ## CRITICAL
 - ALWAYS read `.context/90_active_memory.md` BEFORE starting

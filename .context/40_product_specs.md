@@ -2,7 +2,7 @@
 
 ## Visão Geral
 
-Universal Engine é um framework de agentes IA que transforma qualquer projeto de software. O usuário copia a pasta `.agents/` para seu projeto, digita `/engine`, e o sistema faz o resto.
+Universal Engine é um framework de agentes IA que transforma qualquer projeto de software. O usuário copia a pasta `.agents/` para seu projeto, digita `/iniciar`, e o sistema faz o resto.
 
 ## Features Atuais (Implementadas)
 
@@ -10,7 +10,7 @@ Universal Engine é um framework de agentes IA que transforma qualquer projeto d
 |---|---------|--------|
 | 1 | 19 checks de auditoria read-only (skill) | ✅ |
 | 2 | 19 blocos de ação/execução (skill) | ✅ |
-| 3 | Ciclo self-driving: audit → execute → verify (threshold 8.5) | ✅ |
+| 3 | Ciclo self-driving: audit → execute → verify (nota 10) | ✅ |
 | 4 | Detecção inteligente de stack no Check 00 | ✅ |
 | 5 | Suporte a N/A (skip automático de checks não aplicáveis) | ✅ |
 | 6 | 7 workflows (slash commands) | ✅ |

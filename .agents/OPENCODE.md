@@ -2,11 +2,11 @@
 
 > Guia passo a passo para usar Mobuk Optimizer com opencode.
 
-##快速开始 (Quick Start)
+## Quick Start
 
 1. **Copie `.agents/`** para a raiz do projeto
 2. **Inicie opencode** no diretório do projeto
-3. **Digite** `/engine` para iniciar o ciclo completo
+3. **Digite** `/iniciar` para iniciar o ciclo completo
 
 ## Fluxo Detalhado
 
@@ -22,7 +22,7 @@ opencode .
 ### Passo 2: Iniciar Engine
 
 ```bash
-/engine
+/iniciar
 ```
 
 O Mobuk Optimizer vai:
@@ -35,22 +35,18 @@ O Mobuk Optimizer vai:
 
 | Modo | Comando | Descrição |
 |------|---------|-----------|
-| Manual | `/engine` | Aprova cada passo |
-| Autopilot | `/engine --auto` | Execução contínua |
-| Auditoria | `/audit` | Apenas diagnóstico |
-| Quick | `/audit-quick` | 6 checks rápidos |
+| Manual | `/iniciar` | Aprova cada passo |
+| Autopilot | `/iniciar --auto` | Execução contínua |
+| Auditoria | `/auditar` | Apenas diagnóstico |
+| Validação | `/validar` | Pré-deploy |
 
-## Comandos Disponíveis
+## Comandos Disponíveis (3 modos)
 
 | Comando | Função |
 |---------|--------|
-| `/engine` | Ciclo completo (19 áreas) |
-| `/audit` | Auditoria completa (19 áreas) |
-| `/audit-quick` | 6 checks essenciais |
-| `/detox` | Limpeza e sanitização |
-| `/polish` | UI e UX |
-| `/preflight` | Pré-deploy checklist |
-| `/context-init` | Inicializar .context |
+| `/iniciar` | Ciclo completo (audit + fix) |
+| `/auditar` | Apenas diagnóstico |
+| `/validar` | Pré-deploy checklist |
 
 ## Integração com Agentes
 
@@ -62,32 +58,31 @@ agents:
     description: Motor de otimização universal
     config:
       mode: manual  # ou autopilot
-      threshold: 8.5
+      threshold: 10
       auto_sync: true
 ```
 
 ### Variáveis de Ambiente
 
 ```bash
-MOjuk_THRESHOLD=8.5      # Nota mínima para passar
+MOjuk_THRESHOLD=10     # Nota mínima = 10
 MOjuk_AUTO_MODE=false    # Modo automático
 MOjuk_VERBOSE=true       # Logs detalhados
 ```
 
 ## Dicas
 
-- **Economy de Tokens:**O sistema carrega apenas a skill necessária
-- **Checkpoint:**Após cada área, o estado é salvo em `.context/`
-- **Reversão:**Use `/undo` para reverter a última ação
-- **Relatório:**Use `/report` para gerar scorecard final
+- **Economia de Tokens:** O sistema carrega apenas a skill necessária
+- **Checkpoint:** Após cada área, o estado é salvo em `.context/`
+- **Reversão:** Use `/undo` para reverter a última ação
+- **Relatório:** Use `/report` para gerar scorecard final
 
 ## Troubleshooting
 
 | Problema | Solução |
 |----------|--------|
-| Não detecta stack | Execute `/engine --scan` primeiro |
-| Timeout longo | Use `/audit-quick` |
+| Não detecta stack | Execute `/iniciar --scan` primeiro |
+| Timeout longo | Execute `/auditar` para diagnóstico rápido |
 | Memória cheia | Limpe `.context/` e reinicie |
 
 > Para mais detalhes, consulte: `.agents/README.md`
-
