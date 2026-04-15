@@ -62,8 +62,7 @@ Total session: ~X tokens
 Se uma área exceder o limite:
 1. Truncar output imediatamente
 2. Avisar: `⚠️ [TOKEN] excedido — output truncado`
-3. Em Autopilot: pular para próxima área
-4. Em Manual: aguardar instrução do usuário
+3. Pular para próxima área
 
 ## Regra de Ouro
 

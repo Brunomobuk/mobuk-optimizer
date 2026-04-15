@@ -1,57 +1,26 @@
 # Mobuk Optimizer - Install
 
-Script de instalação para configurar Mobuk Optimizer em qualquer projeto.
+Instalação mínima (2 arquivos) para qualquer projeto.
 
-## Uso Rápido
-
-```bash
-# Windows (PowerShell)
-.\install.ps1
-
-# Linux/Mac
-./install.sh
-```
-
-## O que faz
-
-Detecta o editor de IA atual e cria os arquivos necessários:
-
-| Editor | Arquivo criado |
-|--------|----------------|
-| Cursor | `.cursor/rules/mobuk-optimizer.md` |
-| Claude Code | `CLAUDE.md` |
-| OpenCode | `.opencode/AGENTS.md` |
-| Trae | `.trae/rules/project_rules.md` |
-
-Todos apontam para `.agents/` com o mesmo conteúdo.
-
-## Configuração Manual
-
-Se preferir copiar manualmente:
+## Uso
 
 ```bash
-# Para Cursor
-cp AGENTS.md CLAUDE.md
-cp AGENTS.md .cursor/rules/mobuk-optimizer.md
+# Clone ou baixe este projeto
+git clone https://github.com/Brunomobuk/mobuk-optimizer.git
 
-# Para Claude Code
-cp AGENTS.md CLAUDE.md
-
-# Para OpenCode
-cp AGENTS.md .opencode/AGENTS.md
-
-# Para Trae
-cp AGENTS.md .trae/rules/project_rules.md
+# Copie para seu projeto
+cp -r mobuk-optimizer/.agents /seu-projeto/
+cp mobuk-optimizer/AGENTS.md /seu-projeto/
 ```
 
-## Estrutura Final
+## Script (opcional)
 
+```bash
+cd mobuk-optimizer
+.\setup.ps1 C:\caminho\do\seu-projeto
 ```
-projeto/
-├── .agents/              # Motor do toolkit (sempre necessário)
-├── AGENTS.md             # Link para Cursor/OpenCode
-├── CLAUDE.md             # Link para Claude Code
-├── .cursor/rules/        # Link para Cursor Studio
-├── .opencode/            # Link para OpenCode
-└── .trae/rules/          # Link para Trae AI
-```
+
+## Por que funciona?
+
+- **AGENTS.md** na raiz é reconhecido pela maioria dos editors de IA
+- **.agents/** contém todas as skills, rules e workflows

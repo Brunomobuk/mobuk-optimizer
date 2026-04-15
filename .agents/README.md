@@ -57,5 +57,5 @@ Funciona com qualquer IA que execute agentes. Para opencode:
 3. Execute `/iniciar` para iniciar o ciclo
 
 ---
-**Dica:** Ao digitar `/iniciar`, o Mobuk Optimizer vai te perguntar se prefere o modo Manual ou Autopilot.
+**Pronto!** Digite `/iniciar` para iniciar o ciclo.
 

@@ -43,7 +43,6 @@ Limites: `.agents/rules/token-budget.md` (inclui ajuste para projetos grandes).
 Se atingir **80%**:
 1. Exibir `· ⚠️ NNN/LLLL` no header
 2. Truncar: só bullets
-3. Autopilot → pular se sem resposta
 
 ## Atualização de Contexto
 
