@@ -1,11 +1,11 @@
 ---
-name: Auditoria (15 Checks)
-description: 15 checks diagnósticos read-only para avaliar projeto. Cada arquivo = 1 área de auditoria. Token economy — carregue apenas o necessário.
+name: Auditoria (19 Checks)
+description: 19 checks diagnósticos read-only para avaliar projeto. Cada arquivo = 1 área de auditoria. Token economy — carregue apenas o necessário.
 ---
 
 # 🔍 Skill: Auditoria
 
-The `auditoria/` folder contains **16 audit checks** (00-15), each focusing on a specific area.
+The `auditoria/` folder contains **19 audit checks** (00-18), each focusing on a specific area.
 
 ## Structure
 

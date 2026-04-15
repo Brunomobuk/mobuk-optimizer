@@ -1,11 +1,11 @@
 ---
-name: Execução (16 Blocos)
-description: 16 blocos de ação para correção do projeto. Token economy — carregue apenas o necessário.
+name: Execução (19 Blocos)
+description: 19 blocos de ação para correção do projeto. Token economy — carregue apenas o necessário.
 ---
 
 # ⚡ Skill: Execução
 
-The `execucao/` folder contains **16 action blocks** (00-15), each targeting a specific area.
+The `execucao/` folder contains **19 action blocks** (00-18), each targeting a specific area.
 
 ## Structure
 
